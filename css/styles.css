@@ -309,6 +309,24 @@ main { flex: 1; }
   border-bottom: 1px solid var(--color-border);
 }
 
+/* Team列 */
+.rankings-table th:nth-child(4),
+.rankings-table td:nth-child(4) {
+  text-align: center;
+}
+
+/* Bye Week列 */
+.rankings-table th:nth-child(5),
+.rankings-table td:nth-child(5) {
+  text-align: center;
+}
+
+/* ADP列 */
+.rankings-table th:nth-child(6),
+.rankings-table td:nth-child(6) {
+  text-align: center;
+}
+
 .rankings-table tbody tr:hover { background: #f0f7f2; }
 
 .rankings-table tbody tr:nth-child(even) { background: #fafbfc; }

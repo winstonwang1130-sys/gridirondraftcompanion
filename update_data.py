@@ -79,19 +79,19 @@ def parse_fantasypros_html(html_content: str) -> list:
             continue
         name = player_link.text.strip()
 
-        full_text = cells[player_idx].text
-        remaining_text = full_text.replace(name, "").strip()
-
+        full_text = cells[player_idx].text.strip()
+        
         team = "FA"
-        bye_week = "N/A"
+        bye_week = "-"
 
-        team_match = re.search(r"([A-Z]{2,3})", remaining_text)
-        if team_match:
-            team = team_match.group(1)
-
-        bye_match = re.search(r"\(.*?(\d+).*?\)", remaining_text)
-        if bye_match:
-            bye_week = bye_match.group(1)
+        match = re.search(r"([A-Z]{2,3})\s*\((\d+)\)", full_text)
+        if match:
+            team = match.group(1)
+            bye_week = match.group(2)
+        else:
+            backup_match = re.search(r"([A-Z]{2,3})", full_text.replace(name, ""))
+            if backup_match:
+                team = backup_match.group(1)
 
         pos_text = cells[pos_idx].text.strip()
         pos_match = re.match(r"^(QB|RB|WR|TE)", pos_text)

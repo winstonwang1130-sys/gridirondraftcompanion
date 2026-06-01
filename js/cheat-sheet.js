@@ -1,33 +1,33 @@
-const SCORING_ADJUSTMENTS = {
-  PPR: { WR: -4, RB: 2, TE: -1, QB: 3 },
-  'Half-PPR': { WR: -2, RB: 1, TE: 0, QB: 2 },
-  Standard: { WR: 0, RB: -2, TE: 1, QB: 0 },
+// Half-PPR consensus ADP is the 1.0 baseline from FantasyPros.
+// Multiplier < 1.0 = drafted earlier; > 1.0 = drafted later.
+const SCORING_MULTIPLIERS = {
+  PPR:        { WR: 0.85, RB: 1.12, TE: 0.95, QB: 1.20 },
+  'Half-PPR': { WR: 1.00, RB: 1.00, TE: 1.00, QB: 1.00 },
+  Standard:   { WR: 1.15, RB: 0.88, TE: 1.05, QB: 0.95 },
 };
 
-const LEAGUE_SIZE_FACTOR = { 8: 0.85, 10: 1.0, 12: 1.1, 14: 1.2 };
+const LEAGUE_SIZE_FACTOR = { 8: 0.90, 10: 1.0, 12: 1.05, 14: 1.12 };
 
-/**
- * Build ranked list from PLAYERS_DATA (js/player-data.js) for the selected league settings.
- */
 function buildRankings(leagueSize, scoringType) {
   if (typeof PLAYERS_DATA === 'undefined' || !Array.isArray(PLAYERS_DATA)) {
     console.error('PLAYERS_DATA is not loaded. Ensure js/player-data.js is included before cheat-sheet.js.');
     return [];
   }
 
-  const posAdj = SCORING_ADJUSTMENTS[scoringType] || SCORING_ADJUSTMENTS.PPR;
+  const posMul = SCORING_MULTIPLIERS[scoringType] || SCORING_MULTIPLIERS['Half-PPR'];
   const factor = LEAGUE_SIZE_FACTOR[leagueSize] || 1.0;
 
   const adjusted = PLAYERS_DATA.map((p) => {
-    const adjustment = posAdj[p.position] || 0;
     const baseAdp = Number(p.adp) || 999;
-    const adjustedAdp = Math.max(1, baseAdp + adjustment * factor);
+    const multiplier = posMul[p.position] || 1.0;
+    const finalMultiplier = 1 + (multiplier - 1) * factor;
+    const adjustedAdp = Math.max(1, baseAdp * finalMultiplier);
     return { ...p, adjustedAdp };
   });
 
   adjusted.sort((a, b) => a.adjustedAdp - b.adjustedAdp);
 
-  return adjusted.map((p, i) => ({
+  return adjusted.slice(0, 200).map((p, i) => ({
     rank: i + 1,
     name: p.name,
     position: p.position,
@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
     resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
-  // Re-render when dropdowns change after the table is already visible
   const onOptionChange = () => {
     if (resultsSection.classList.contains('visible')) {
       updateCheatSheet(form, tableBody, resultsMeta, resultsSection);
@@ -137,12 +136,12 @@ document.addEventListener('DOMContentLoaded', () => {
   .footer { margin-top: 20px; font-size: 10px; color: #999; }
 </style></head><body>
 <h1>2026 Fantasy Football Draft Cheat Sheet</h1>
-<p class="meta">${leagueSize}-Team · ${scoringType} · Generated ${date} · GridironDraftCompanion.com</p>
+<p class="meta">${leagueSize}-Team · ${scoringType} · Generated ${date} · gridiron-draft-companion.online</p>
 <table>
 <thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>Team</th><th>Bye</th><th>ADP</th></tr></thead>
 <tbody>${rows}</tbody>
 </table>
-<p class="footer">© 2026 GridironDraftCompanion.com — Free Fantasy Football Draft Tools</p>
+<p class="footer">© 2026 gridiron-draft-companion.online — Free Fantasy Football Draft Tools</p>
 <script>window.onload=function(){window.print();}<\/script>
 </body></html>`);
       printWindow.document.close();

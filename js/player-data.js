@@ -1148,7 +1148,7 @@ const PLAYERS_DATA = [
     "name": "Stefon Diggs",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 146.0
   },
   {
@@ -1284,7 +1284,7 @@ const PLAYERS_DATA = [
     "name": "Tyreek Hill",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 167.7
   },
   {
@@ -1404,7 +1404,7 @@ const PLAYERS_DATA = [
     "name": "Deebo Samuel Sr.",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 177.7
   },
   {
@@ -1868,7 +1868,7 @@ const PLAYERS_DATA = [
     "name": "Joe Mixon",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 266.5
   },
   {
@@ -1892,7 +1892,7 @@ const PLAYERS_DATA = [
     "name": "Jonnu Smith",
     "position": "TE",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 273.0
   },
   {
@@ -1996,7 +1996,7 @@ const PLAYERS_DATA = [
     "name": "Kareem Hunt",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 290.5
   },
   {
@@ -2036,7 +2036,7 @@ const PLAYERS_DATA = [
     "name": "Austin Ekeler",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 293.0
   },
   {
@@ -2276,7 +2276,7 @@ const PLAYERS_DATA = [
     "name": "Zach Ertz",
     "position": "TE",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 302.0
   },
   {
@@ -2500,7 +2500,7 @@ const PLAYERS_DATA = [
     "name": "Tre Stewart",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 302.0
   },
   {
@@ -2508,7 +2508,7 @@ const PLAYERS_DATA = [
     "name": "Austin Reed",
     "position": "QB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 303.0
   },
   {
@@ -2580,7 +2580,7 @@ const PLAYERS_DATA = [
     "name": "Jaray Jenkins",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 314.0
   },
   {
@@ -2596,7 +2596,7 @@ const PLAYERS_DATA = [
     "name": "Travis Vokolek",
     "position": "TE",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 316.0
   },
   {
@@ -2700,7 +2700,7 @@ const PLAYERS_DATA = [
     "name": "Erik Ezukanma",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 331.0
   },
   {
@@ -2708,7 +2708,7 @@ const PLAYERS_DATA = [
     "name": "Malik Taylor",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 332.0
   },
   {
@@ -2716,7 +2716,7 @@ const PLAYERS_DATA = [
     "name": "Damien Harris",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 333.0
   },
   {
@@ -2836,7 +2836,7 @@ const PLAYERS_DATA = [
     "name": "Nick Chubb",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 349.0
   },
   {
@@ -2852,7 +2852,7 @@ const PLAYERS_DATA = [
     "name": "Jalen White",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 351.0
   },
   {
@@ -3068,7 +3068,7 @@ const PLAYERS_DATA = [
     "name": "Jamison Crowder",
     "position": "WR",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 380.0
   },
   {
@@ -3084,7 +3084,7 @@ const PLAYERS_DATA = [
     "name": "Jonathan Ward",
     "position": "RB",
     "team": "FA",
-    "bye_week": "N/A",
+    "bye_week": "-",
     "adp": 385.0
   },
   {

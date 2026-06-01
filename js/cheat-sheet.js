@@ -21,7 +21,7 @@ function buildRankings(leagueSize, scoringType) {
     const baseAdp = Number(p.adp) || 999;
     const multiplier = posMul[p.position] || 1.0;
     const finalMultiplier = 1 + (multiplier - 1) * factor;
-    const adjustedAdp = Math.max(1, baseAdp * finalMultiplier);
+    const adjustedAdp = Math.max(0.1, baseAdp * finalMultiplier);
     return { ...p, adjustedAdp };
   });
 

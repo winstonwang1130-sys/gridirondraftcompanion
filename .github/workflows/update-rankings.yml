@@ -1,0 +1,35 @@
+name: Daily Fantasy Rankings Update
+
+on:
+  schedule:
+    # 04:00 UTC daily (~ midnight ET during standard time)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests urllib3
+
+      - name: Run updater script
+        run: python update_data.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "Automated Bot"
+          git config user.email "bot@gridirondraftcompanion.com"
+          git add js/player-data.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated Daily ADP Update [skip ci]" && git push)

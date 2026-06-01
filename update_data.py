@@ -1,38 +1,37 @@
 import json
-import shutil
+import re
 import sys
 import time
 from pathlib import Path
 
 import requests
+from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-SLEEPER_URL = "https://api.sleeper.app/v1/players/nfl"
+FANTASYPROS_URL = "https://www.fantasypros.com/nfl/adp/half-point-ppr-overall.php"
 OUTPUT_PATH = Path("js/player-data.js")
 MIN_PLAYERS = 50
-TOP_N = 200
+BACKEND_MAX_POOL = 400
 VALID_POSITIONS = {"QB", "RB", "WR", "TE"}
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/120.0.0.0 Safari/537.36 "
-    "GridironDraftCompanion/1.0 (+https://gridirondraftcompanion.com)"
+    "GridironDraftCompanion/1.0 (+https://gridiron-draft-companion.online)"
 )
 
 
 def create_session() -> requests.Session:
-    """Build a requests session with User-Agent spoofing and urllib3 retries."""
     session = requests.Session()
     session.headers.update(
         {
             "User-Agent": USER_AGENT,
-            "Accept": "application/json",
-            "Accept-Language": "en-US,en;q=0.9",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
         }
     )
-
     retry = Retry(
         total=5,
         connect=5,
@@ -48,26 +47,92 @@ def create_session() -> requests.Session:
     return session
 
 
-def fetch_with_backoff(session: requests.Session, url: str, max_attempts: int = 5):
-    """Fetch JSON with manual exponential backoff on top of adapter retries."""
+def parse_fantasypros_html(html_content: str) -> list:
+    cleaned = []
+    soup = BeautifulSoup(html_content, "html.parser")
+    table = soup.find("table", {"id": "data"})
+    if not table:
+        return []
+
+    thead = table.find("thead")
+    if not thead:
+        return []
+
+    headers = [th.text.strip().lower() for th in thead.find_all("th")]
+
+    player_idx = headers.index("player") if "player" in headers else 1
+    pos_idx = headers.index("pos") if "pos" in headers else 2
+    avg_idx = headers.index("avg") if "avg" in headers else -1
+
+    tbody = table.find("tbody")
+    if not tbody:
+        return []
+
+    rows = tbody.find_all("tr")
+    for index, row in enumerate(rows):
+        cells = row.find_all("td")
+        if len(cells) <= max(player_idx, pos_idx, abs(avg_idx)):
+            continue
+
+        player_link = cells[player_idx].find("a")
+        if not player_link:
+            continue
+        name = player_link.text.strip()
+
+        full_text = cells[player_idx].text
+        remaining_text = full_text.replace(name, "").strip()
+
+        team = "FA"
+        bye_week = "N/A"
+
+        team_match = re.search(r"([A-Z]{2,3})", remaining_text)
+        if team_match:
+            team = team_match.group(1)
+
+        bye_match = re.search(r"\(.*?(\d+).*?\)", remaining_text)
+        if bye_match:
+            bye_week = bye_match.group(1)
+
+        pos_text = cells[pos_idx].text.strip()
+        pos_match = re.match(r"^(QB|RB|WR|TE)", pos_text)
+        if not pos_match or pos_match.group(1) not in VALID_POSITIONS:
+            continue
+        position = pos_match.group(1)
+
+        try:
+            adp = float(cells[avg_idx].text.strip())
+        except (ValueError, IndexError):
+            adp = 999.0
+
+        cleaned.append(
+            {
+                "id": f"fp_{index + 1}",
+                "name": name,
+                "position": position,
+                "team": team,
+                "bye_week": bye_week,
+                "adp": adp,
+            }
+        )
+
+        if len(cleaned) >= BACKEND_MAX_POOL:
+            break
+
+    return cleaned
+
+
+def fetch_with_backoff(session: requests.Session, url: str, max_attempts: int = 5) -> str | None:
     last_error = None
 
     for attempt in range(1, max_attempts + 1):
         try:
             print(f"[INFO] Fetch attempt {attempt}/{max_attempts}...")
             response = session.get(url, timeout=90)
-
-            if response.status_code == 200:
-                data = response.json()
-                if isinstance(data, dict) and data:
-                    return data
-                print("[WARN] API returned empty or invalid payload.")
-                last_error = "empty payload"
-            else:
-                print(f"[WARN] HTTP {response.status_code}: {response.reason}")
-                last_error = f"HTTP {response.status_code}"
-
-        except (requests.RequestException, json.JSONDecodeError) as exc:
+            if response.status_code == 200 and response.text:
+                return response.text
+            print(f"[WARN] HTTP {response.status_code}")
+            last_error = f"HTTP {response.status_code}"
+        except requests.RequestException as exc:
             print(f"[WARN] Request failed: {exc}")
             last_error = str(exc)
 
@@ -80,83 +145,42 @@ def fetch_with_backoff(session: requests.Session, url: str, max_attempts: int = 
     return None
 
 
-def clean_players(all_players: dict) -> list:
-    cleaned = []
-
-    for player_id, info in all_players.items():
-        if not isinstance(info, dict):
-            continue
-
-        if (
-            info.get("active")
-            and info.get("position") in VALID_POSITIONS
-            and info.get("fantasy_positions")
-        ):
-            first = info.get("first_name") or ""
-            last = info.get("last_name") or ""
-            name = f"{first} {last}".strip()
-            if not name:
-                continue
-
-            cleaned.append(
-                {
-                    "id": player_id,
-                    "name": name,
-                    "position": info.get("position"),
-                    "team": info.get("team") or "FA",
-                    "bye_week": info.get("bye") if info.get("bye") is not None else "N/A",
-                    "adp": info.get("search_rank") if info.get("search_rank") else 999,
-                }
-            )
-
-    cleaned.sort(key=lambda x: x["adp"])
-    return cleaned
-
-
-def build_js_content(players: list) -> str:
-    return f"const PLAYERS_DATA = {json.dumps(players, indent=2, ensure_ascii=False)};"
-
-
 def write_player_data(players: list) -> None:
-    """Write to a temp file first, then atomically replace the live file."""
-    js_content = build_js_content(players)
+    js_content = f"const PLAYERS_DATA = {json.dumps(players, indent=2, ensure_ascii=False)};"
     temp_path = OUTPUT_PATH.with_suffix(".js.tmp")
-
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     temp_path.write_text(js_content, encoding="utf-8")
     temp_path.replace(OUTPUT_PATH)
 
 
-def fetch_sleeper_data() -> int:
-    print("[INFO] Fetching latest NFL player data from Sleeper API...")
-
-    if not OUTPUT_PATH.exists():
-        print(f"[WARN] {OUTPUT_PATH} does not exist yet — a successful fetch is required.")
+def fetch_rankings_pipeline() -> int:
+    print("[INFO] Fetching FantasyPros Half-PPR consensus ADP...")
 
     session = create_session()
-    all_players = fetch_with_backoff(session, SLEEPER_URL)
+    html_content = fetch_with_backoff(session, FANTASYPROS_URL)
 
-    if not all_players:
+    if not html_content:
         print("[FALLBACK] Keeping existing player-data.js unchanged.")
         return 1
 
-    cleaned_players = clean_players(all_players)
-    top_players = cleaned_players[:TOP_N]
+    try:
+        all_players = parse_fantasypros_html(html_content)
+    except Exception as exc:
+        print(f"[ERROR] Parse failed: {exc}")
+        print("[FALLBACK] Keeping existing player-data.js unchanged.")
+        return 1
 
-    for index, player in enumerate(top_players, start=1):
-        player["rank"] = index
-
-    if len(top_players) < MIN_PLAYERS:
+    if len(all_players) < MIN_PLAYERS:
         print(
-            f"[FALLBACK] Only {len(top_players)} players parsed "
+            f"[FALLBACK] Only {len(all_players)} players parsed "
             f"(minimum {MIN_PLAYERS}). Keeping existing player-data.js unchanged."
         )
         return 1
 
-    write_player_data(top_players)
-    print(f"[OK] Success! Wrote {len(top_players)} players to {OUTPUT_PATH}.")
+    write_player_data(all_players)
+    print(f"[OK] Wrote {len(all_players)} players to {OUTPUT_PATH}.")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(fetch_sleeper_data())
+    sys.exit(fetch_rankings_pipeline())

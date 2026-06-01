@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gridirondraftcompanion.com/sitemap.xml
+Sitemap: https://gridiron-draft-companion.online/sitemap.xml

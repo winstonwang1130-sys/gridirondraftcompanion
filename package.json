@@ -6,6 +6,14 @@
     "dev": "npx serve .",
     "start": "npx serve ."
   },
-  "keywords": ["fantasy-football", "draft", "cheat-sheet", "nfl"],
-  "license": "MIT"
+  "keywords": [
+    "fantasy-football",
+    "draft",
+    "cheat-sheet",
+    "nfl"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }

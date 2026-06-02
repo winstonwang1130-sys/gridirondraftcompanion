@@ -85,7 +85,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 11.3
+    "adp": 11.0
   },
   {
     "id": "fp_12",
@@ -113,19 +113,19 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_15",
-    "name": "Trey McBride",
-    "position": "TE",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 17.3
-  },
-  {
-    "id": "fp_16",
     "name": "Omarion Hampton",
     "position": "RB",
     "team": "LAC",
     "bye_week": "7",
     "adp": 17.3
+  },
+  {
+    "id": "fp_16",
+    "name": "Trey McBride",
+    "position": "TE",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 17.7
   },
   {
     "id": "fp_17",
@@ -157,7 +157,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "ATL",
     "bye_week": "11",
-    "adp": 19.3
+    "adp": 19.0
   },
   {
     "id": "fp_21",
@@ -177,19 +177,19 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_23",
-    "name": "Jeremiyah Love",
-    "position": "RB",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 23.0
-  },
-  {
-    "id": "fp_24",
     "name": "Nico Collins",
     "position": "WR",
     "team": "HOU",
     "bye_week": "8",
     "adp": 23.3
+  },
+  {
+    "id": "fp_24",
+    "name": "Jeremiyah Love",
+    "position": "RB",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 23.7
   },
   {
     "id": "fp_25",
@@ -205,23 +205,23 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "NYG",
     "bye_week": "8",
-    "adp": 25.7
+    "adp": 26.0
   },
   {
     "id": "fp_27",
-    "name": "Chris Olave",
-    "position": "WR",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 27.7
-  },
-  {
-    "id": "fp_28",
     "name": "A.J. Brown",
     "position": "WR",
     "team": "NE",
     "bye_week": "11",
-    "adp": 28.3
+    "adp": 27.3
+  },
+  {
+    "id": "fp_28",
+    "name": "Chris Olave",
+    "position": "WR",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 27.3
   },
   {
     "id": "fp_29",
@@ -237,7 +237,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "KC",
     "bye_week": "5",
-    "adp": 31.0
+    "adp": 31.3
   },
   {
     "id": "fp_31",
@@ -245,7 +245,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "NYJ",
     "bye_week": "13",
-    "adp": 31.7
+    "adp": 32.0
   },
   {
     "id": "fp_32",
@@ -261,7 +261,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 35.3
+    "adp": 35.0
   },
   {
     "id": "fp_34",
@@ -273,19 +273,19 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_35",
-    "name": "Josh Jacobs",
-    "position": "RB",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 36.7
-  },
-  {
-    "id": "fp_36",
     "name": "Tee Higgins",
     "position": "WR",
     "team": "CIN",
     "bye_week": "6",
     "adp": 37.0
+  },
+  {
+    "id": "fp_36",
+    "name": "Josh Jacobs",
+    "position": "RB",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 37.3
   },
   {
     "id": "fp_37",
@@ -341,7 +341,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "NYJ",
     "bye_week": "13",
-    "adp": 42.7
+    "adp": 43.0
   },
   {
     "id": "fp_44",
@@ -349,7 +349,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "BUF",
     "bye_week": "7",
-    "adp": 46.3
+    "adp": 46.7
   },
   {
     "id": "fp_45",
@@ -357,7 +357,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "LAC",
     "bye_week": "7",
-    "adp": 47.0
+    "adp": 46.7
   },
   {
     "id": "fp_46",
@@ -365,7 +365,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 48.3
+    "adp": 48.0
   },
   {
     "id": "fp_47",
@@ -381,7 +381,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "CHI",
     "bye_week": "10",
-    "adp": 50.3
+    "adp": 49.7
   },
   {
     "id": "fp_49",
@@ -397,7 +397,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "TB",
     "bye_week": "10",
-    "adp": 50.7
+    "adp": 51.3
   },
   {
     "id": "fp_51",
@@ -405,7 +405,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "IND",
     "bye_week": "13",
-    "adp": 51.0
+    "adp": 51.3
   },
   {
     "id": "fp_52",
@@ -429,23 +429,23 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "SF",
     "bye_week": "8",
-    "adp": 53.7
-  },
-  {
-    "id": "fp_55",
-    "name": "Terry McLaurin",
-    "position": "WR",
-    "team": "WAS",
-    "bye_week": "7",
     "adp": 54.3
   },
   {
-    "id": "fp_56",
+    "id": "fp_55",
     "name": "Jadarian Price",
     "position": "RB",
     "team": "SEA",
     "bye_week": "11",
-    "adp": 54.7
+    "adp": 55.0
+  },
+  {
+    "id": "fp_56",
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 55.0
   },
   {
     "id": "fp_57",
@@ -453,7 +453,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "DET",
     "bye_week": "6",
-    "adp": 56.0
+    "adp": 55.7
   },
   {
     "id": "fp_58",
@@ -469,7 +469,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "NE",
     "bye_week": "11",
-    "adp": 56.3
+    "adp": 56.7
   },
   {
     "id": "fp_60",
@@ -493,7 +493,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "CHI",
     "bye_week": "10",
-    "adp": 62.7
+    "adp": 62.0
   },
   {
     "id": "fp_63",
@@ -517,7 +517,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "PHI",
     "bye_week": "10",
-    "adp": 67.0
+    "adp": 66.7
   },
   {
     "id": "fp_66",
@@ -525,22 +525,22 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 70.0
+    "adp": 69.7
   },
   {
     "id": "fp_67",
+    "name": "Carnell Tate",
+    "position": "WR",
+    "team": "TEN",
+    "bye_week": "9",
+    "adp": 71.0
+  },
+  {
+    "id": "fp_68",
     "name": "Christian Watson",
     "position": "WR",
     "team": "GB",
     "bye_week": "11",
-    "adp": 70.7
-  },
-  {
-    "id": "fp_68",
-    "name": "Brian Thomas Jr.",
-    "position": "WR",
-    "team": "JAC",
-    "bye_week": "7",
     "adp": 71.0
   },
   {
@@ -549,15 +549,15 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 71.3
+    "adp": 71.0
   },
   {
     "id": "fp_70",
-    "name": "Carnell Tate",
+    "name": "Brian Thomas Jr.",
     "position": "WR",
-    "team": "TEN",
-    "bye_week": "9",
-    "adp": 71.7
+    "team": "JAC",
+    "bye_week": "7",
+    "adp": 71.3
   },
   {
     "id": "fp_71",
@@ -565,23 +565,23 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "CAR",
     "bye_week": "5",
-    "adp": 71.7
+    "adp": 71.3
   },
   {
     "id": "fp_72",
-    "name": "Tucker Kraft",
-    "position": "TE",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 72.0
-  },
-  {
-    "id": "fp_73",
     "name": "Marvin Harrison Jr.",
     "position": "WR",
     "team": "ARI",
     "bye_week": "14",
-    "adp": 72.0
+    "adp": 72.3
+  },
+  {
+    "id": "fp_73",
+    "name": "Tucker Kraft",
+    "position": "TE",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 72.7
   },
   {
     "id": "fp_74",
@@ -589,7 +589,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "NE",
     "bye_week": "11",
-    "adp": 76.0
+    "adp": 75.7
   },
   {
     "id": "fp_75",
@@ -613,7 +613,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "IND",
     "bye_week": "13",
-    "adp": 79.7
+    "adp": 78.7
   },
   {
     "id": "fp_78",
@@ -621,7 +621,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "DET",
     "bye_week": "6",
-    "adp": 80.0
+    "adp": 79.7
   },
   {
     "id": "fp_79",
@@ -645,7 +645,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "JAC",
     "bye_week": "7",
-    "adp": 81.0
+    "adp": 80.7
   },
   {
     "id": "fp_82",
@@ -653,7 +653,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "PIT",
     "bye_week": "9",
-    "adp": 81.7
+    "adp": 81.0
   },
   {
     "id": "fp_83",
@@ -669,7 +669,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "PIT",
     "bye_week": "9",
-    "adp": 84.0
+    "adp": 83.3
   },
   {
     "id": "fp_85",
@@ -677,7 +677,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 84.3
+    "adp": 84.7
   },
   {
     "id": "fp_86",
@@ -701,23 +701,23 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "PIT",
     "bye_week": "9",
-    "adp": 86.3
+    "adp": 86.0
   },
   {
     "id": "fp_89",
-    "name": "Patrick Mahomes II",
-    "position": "QB",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 88.7
-  },
-  {
-    "id": "fp_90",
     "name": "Kyle Monangai",
     "position": "RB",
     "team": "CHI",
     "bye_week": "10",
-    "adp": 89.3
+    "adp": 89.7
+  },
+  {
+    "id": "fp_90",
+    "name": "Patrick Mahomes II",
+    "position": "QB",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 90.0
   },
   {
     "id": "fp_91",
@@ -725,7 +725,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "PHI",
     "bye_week": "10",
-    "adp": 90.7
+    "adp": 91.0
   },
   {
     "id": "fp_92",
@@ -733,7 +733,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "ARI",
     "bye_week": "14",
-    "adp": 90.7
+    "adp": 91.0
   },
   {
     "id": "fp_93",
@@ -749,7 +749,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "LAR",
     "bye_week": "11",
-    "adp": 92.0
+    "adp": 91.7
   },
   {
     "id": "fp_95",
@@ -757,7 +757,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "SF",
     "bye_week": "8",
-    "adp": 96.0
+    "adp": 96.7
   },
   {
     "id": "fp_96",
@@ -773,23 +773,23 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "LAR",
     "bye_week": "11",
-    "adp": 97.7
+    "adp": 98.0
   },
   {
     "id": "fp_98",
-    "name": "Bo Nix",
-    "position": "QB",
-    "team": "DEN",
-    "bye_week": "10",
-    "adp": 100.0
-  },
-  {
-    "id": "fp_99",
     "name": "Jayden Reed",
     "position": "WR",
     "team": "GB",
     "bye_week": "11",
-    "adp": 100.7
+    "adp": 100.3
+  },
+  {
+    "id": "fp_99",
+    "name": "Bo Nix",
+    "position": "QB",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 100.3
   },
   {
     "id": "fp_100",
@@ -797,7 +797,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "DEN",
     "bye_week": "10",
-    "adp": 101.3
+    "adp": 101.0
   },
   {
     "id": "fp_101",
@@ -805,7 +805,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "DET",
     "bye_week": "6",
-    "adp": 101.7
+    "adp": 102.0
   },
   {
     "id": "fp_102",
@@ -813,7 +813,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "MIN",
     "bye_week": "6",
-    "adp": 103.7
+    "adp": 104.0
   },
   {
     "id": "fp_103",
@@ -821,10 +821,18 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "KC",
     "bye_week": "5",
-    "adp": 103.7
+    "adp": 104.0
   },
   {
     "id": "fp_104",
+    "name": "Kenneth Gainwell",
+    "position": "RB",
+    "team": "TB",
+    "bye_week": "10",
+    "adp": 105.0
+  },
+  {
+    "id": "fp_105",
     "name": "Jakobi Meyers",
     "position": "WR",
     "team": "JAC",
@@ -832,20 +840,12 @@ const PLAYERS_DATA = [
     "adp": 105.3
   },
   {
-    "id": "fp_105",
-    "name": "Kenneth Gainwell",
-    "position": "RB",
-    "team": "TB",
-    "bye_week": "10",
-    "adp": 105.7
-  },
-  {
     "id": "fp_106",
     "name": "Wan'Dale Robinson",
     "position": "WR",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 107.7
+    "adp": 107.3
   },
   {
     "id": "fp_107",
@@ -857,34 +857,34 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_108",
-    "name": "Kyler Murray",
-    "position": "QB",
-    "team": "MIN",
-    "bye_week": "6",
-    "adp": 109.0
-  },
-  {
-    "id": "fp_109",
     "name": "Quentin Johnston",
     "position": "WR",
     "team": "LAC",
     "bye_week": "7",
-    "adp": 109.7
+    "adp": 109.3
+  },
+  {
+    "id": "fp_109",
+    "name": "Kyler Murray",
+    "position": "QB",
+    "team": "MIN",
+    "bye_week": "6",
+    "adp": 109.3
   },
   {
     "id": "fp_110",
-    "name": "Dalton Kincaid",
-    "position": "TE",
-    "team": "BUF",
-    "bye_week": "7",
-    "adp": 110.3
-  },
-  {
-    "id": "fp_111",
     "name": "Ricky Pearsall",
     "position": "WR",
     "team": "SF",
     "bye_week": "8",
+    "adp": 110.3
+  },
+  {
+    "id": "fp_111",
+    "name": "Dalton Kincaid",
+    "position": "TE",
+    "team": "BUF",
+    "bye_week": "7",
     "adp": 110.7
   },
   {
@@ -893,10 +893,18 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 111.7
+    "adp": 112.0
   },
   {
     "id": "fp_113",
+    "name": "Isaiah Likely",
+    "position": "TE",
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 113.0
+  },
+  {
+    "id": "fp_114",
     "name": "Josh Downs",
     "position": "WR",
     "team": "IND",
@@ -904,20 +912,12 @@ const PLAYERS_DATA = [
     "adp": 113.0
   },
   {
-    "id": "fp_114",
-    "name": "Isaiah Likely",
-    "position": "TE",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 113.3
-  },
-  {
     "id": "fp_115",
     "name": "Jordan Love",
     "position": "QB",
     "team": "GB",
     "bye_week": "11",
-    "adp": 113.7
+    "adp": 114.0
   },
   {
     "id": "fp_116",
@@ -925,7 +925,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "NO",
     "bye_week": "8",
-    "adp": 114.0
+    "adp": 114.7
   },
   {
     "id": "fp_117",
@@ -933,7 +933,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "TB",
     "bye_week": "10",
-    "adp": 115.7
+    "adp": 115.3
   },
   {
     "id": "fp_118",
@@ -941,7 +941,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "MIN",
     "bye_week": "6",
-    "adp": 117.0
+    "adp": 116.3
   },
   {
     "id": "fp_119",
@@ -949,7 +949,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "PHI",
     "bye_week": "10",
-    "adp": 118.7
+    "adp": 118.3
   },
   {
     "id": "fp_120",
@@ -957,7 +957,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "KC",
     "bye_week": "5",
-    "adp": 119.0
+    "adp": 118.3
   },
   {
     "id": "fp_121",
@@ -965,23 +965,23 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "WAS",
     "bye_week": "7",
-    "adp": 119.0
+    "adp": 118.3
   },
   {
     "id": "fp_122",
-    "name": "Mark Andrews",
-    "position": "TE",
-    "team": "BAL",
-    "bye_week": "13",
-    "adp": 120.0
-  },
-  {
-    "id": "fp_123",
     "name": "Aaron Jones Sr.",
     "position": "RB",
     "team": "MIN",
     "bye_week": "6",
-    "adp": 121.0
+    "adp": 120.3
+  },
+  {
+    "id": "fp_123",
+    "name": "Mark Andrews",
+    "position": "TE",
+    "team": "BAL",
+    "bye_week": "13",
+    "adp": 120.7
   },
   {
     "id": "fp_124",
@@ -989,7 +989,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "CAR",
     "bye_week": "5",
-    "adp": 121.3
+    "adp": 120.7
   },
   {
     "id": "fp_125",
@@ -997,7 +997,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "GB",
     "bye_week": "11",
-    "adp": 121.7
+    "adp": 121.3
   },
   {
     "id": "fp_126",
@@ -1005,7 +1005,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "NE",
     "bye_week": "11",
-    "adp": 121.7
+    "adp": 121.3
   },
   {
     "id": "fp_127",
@@ -1013,7 +1013,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 121.7
+    "adp": 122.7
   },
   {
     "id": "fp_128",
@@ -1021,7 +1021,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "WAS",
     "bye_week": "7",
-    "adp": 123.0
+    "adp": 123.3
   },
   {
     "id": "fp_129",
@@ -1029,7 +1029,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "JAC",
     "bye_week": "7",
-    "adp": 125.0
+    "adp": 125.3
   },
   {
     "id": "fp_130",
@@ -1037,7 +1037,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "NYG",
     "bye_week": "8",
-    "adp": 129.3
+    "adp": 130.0
   },
   {
     "id": "fp_131",
@@ -1045,7 +1045,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "MIA",
     "bye_week": "6",
-    "adp": 133.3
+    "adp": 133.0
   },
   {
     "id": "fp_132",
@@ -1053,7 +1053,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "BUF",
     "bye_week": "7",
-    "adp": 133.7
+    "adp": 134.0
   },
   {
     "id": "fp_133",
@@ -1061,7 +1061,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "LAC",
     "bye_week": "7",
-    "adp": 134.3
+    "adp": 134.7
   },
   {
     "id": "fp_134",
@@ -1069,7 +1069,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "NYJ",
     "bye_week": "13",
-    "adp": 135.7
+    "adp": 136.3
   },
   {
     "id": "fp_135",
@@ -1077,7 +1077,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "HOU",
     "bye_week": "8",
-    "adp": 137.3
+    "adp": 136.7
   },
   {
     "id": "fp_136",
@@ -1085,7 +1085,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "SEA",
     "bye_week": "11",
-    "adp": 138.0
+    "adp": 138.3
   },
   {
     "id": "fp_137",
@@ -1093,7 +1093,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "HOU",
     "bye_week": "8",
-    "adp": 139.3
+    "adp": 139.7
   },
   {
     "id": "fp_138",
@@ -1101,7 +1101,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "HOU",
     "bye_week": "8",
-    "adp": 140.7
+    "adp": 140.3
   },
   {
     "id": "fp_139",
@@ -1117,7 +1117,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "CAR",
     "bye_week": "5",
-    "adp": 142.3
+    "adp": 142.0
   },
   {
     "id": "fp_141",
@@ -1125,7 +1125,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 142.7
+    "adp": 142.0
   },
   {
     "id": "fp_142",
@@ -1133,7 +1133,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "WAS",
     "bye_week": "7",
-    "adp": 143.3
+    "adp": 144.0
   },
   {
     "id": "fp_143",
@@ -1141,7 +1141,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "DET",
     "bye_week": "6",
-    "adp": 145.7
+    "adp": 145.3
   },
   {
     "id": "fp_144",
@@ -1157,7 +1157,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "IND",
     "bye_week": "13",
-    "adp": 146.7
+    "adp": 146.0
   },
   {
     "id": "fp_146",
@@ -1165,18 +1165,10 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "SEA",
     "bye_week": "11",
-    "adp": 147.3
+    "adp": 147.7
   },
   {
     "id": "fp_147",
-    "name": "T.J. Hockenson",
-    "position": "TE",
-    "team": "MIN",
-    "bye_week": "6",
-    "adp": 148.7
-  },
-  {
-    "id": "fp_148",
     "name": "Rashid Shaheed",
     "position": "WR",
     "team": "SEA",
@@ -1184,20 +1176,28 @@ const PLAYERS_DATA = [
     "adp": 148.7
   },
   {
-    "id": "fp_149",
+    "id": "fp_148",
     "name": "Tyler Allgeier",
     "position": "RB",
     "team": "ARI",
     "bye_week": "14",
-    "adp": 149.3
+    "adp": 148.7
   },
   {
-    "id": "fp_150",
+    "id": "fp_149",
     "name": "Brenton Strange",
     "position": "TE",
     "team": "JAC",
     "bye_week": "7",
-    "adp": 149.3
+    "adp": 148.7
+  },
+  {
+    "id": "fp_150",
+    "name": "T.J. Hockenson",
+    "position": "TE",
+    "team": "MIN",
+    "bye_week": "6",
+    "adp": 149.0
   },
   {
     "id": "fp_151",
@@ -1221,7 +1221,7 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "CAR",
     "bye_week": "5",
-    "adp": 152.3
+    "adp": 152.7
   },
   {
     "id": "fp_154",
@@ -1229,10 +1229,18 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "MIN",
     "bye_week": "6",
-    "adp": 154.7
+    "adp": 155.0
   },
   {
     "id": "fp_155",
+    "name": "Keaton Mitchell",
+    "position": "RB",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 155.7
+  },
+  {
+    "id": "fp_156",
     "name": "Omar Cooper Jr.",
     "position": "WR",
     "team": "NYJ",
@@ -1240,28 +1248,20 @@ const PLAYERS_DATA = [
     "adp": 157.0
   },
   {
-    "id": "fp_156",
-    "name": "Keaton Mitchell",
-    "position": "RB",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 158.0
-  },
-  {
     "id": "fp_157",
-    "name": "Jalen McMillan",
-    "position": "WR",
-    "team": "TB",
-    "bye_week": "10",
-    "adp": 159.3
-  },
-  {
-    "id": "fp_158",
     "name": "Tyjae Spears",
     "position": "RB",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 159.3
+    "adp": 159.0
+  },
+  {
+    "id": "fp_158",
+    "name": "Jalen McMillan",
+    "position": "WR",
+    "team": "TB",
+    "bye_week": "10",
+    "adp": 160.0
   },
   {
     "id": "fp_159",
@@ -1269,7 +1269,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "LV",
     "bye_week": "13",
-    "adp": 162.0
+    "adp": 161.3
   },
   {
     "id": "fp_160",
@@ -1277,26 +1277,18 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "NO",
     "bye_week": "8",
-    "adp": 163.3
+    "adp": 163.0
   },
   {
     "id": "fp_161",
-    "name": "Tyreek Hill",
-    "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 167.7
-  },
-  {
-    "id": "fp_162",
     "name": "Brian Robinson Jr.",
     "position": "RB",
     "team": "ATL",
     "bye_week": "11",
-    "adp": 168.3
+    "adp": 169.0
   },
   {
-    "id": "fp_163",
+    "id": "fp_162",
     "name": "Dylan Sampson",
     "position": "RB",
     "team": "CLE",
@@ -1304,63 +1296,63 @@ const PLAYERS_DATA = [
     "adp": 169.3
   },
   {
-    "id": "fp_164",
-    "name": "Dalton Schultz",
-    "position": "TE",
-    "team": "HOU",
-    "bye_week": "8",
+    "id": "fp_163",
+    "name": "Tyreek Hill",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 169.7
   },
   {
-    "id": "fp_165",
-    "name": "Fernando Mendoza",
-    "position": "QB",
-    "team": "LV",
-    "bye_week": "13",
-    "adp": 170.0
-  },
-  {
-    "id": "fp_166",
-    "name": "Aaron Rodgers",
-    "position": "QB",
-    "team": "PIT",
-    "bye_week": "9",
-    "adp": 171.0
-  },
-  {
-    "id": "fp_167",
-    "name": "Nicholas Singleton",
-    "position": "RB",
-    "team": "TEN",
-    "bye_week": "9",
-    "adp": 171.0
-  },
-  {
-    "id": "fp_168",
+    "id": "fp_164",
     "name": "Denzel Boston",
     "position": "WR",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 171.3
+    "adp": 169.7
   },
   {
-    "id": "fp_169",
+    "id": "fp_165",
+    "name": "Dalton Schultz",
+    "position": "TE",
+    "team": "HOU",
+    "bye_week": "8",
+    "adp": 170.0
+  },
+  {
+    "id": "fp_166",
+    "name": "Fernando Mendoza",
+    "position": "QB",
+    "team": "LV",
+    "bye_week": "13",
+    "adp": 170.7
+  },
+  {
+    "id": "fp_167",
     "name": "Jacoby Brissett",
     "position": "QB",
     "team": "ARI",
     "bye_week": "14",
-    "adp": 171.7
+    "adp": 171.3
+  },
+  {
+    "id": "fp_168",
+    "name": "Nicholas Singleton",
+    "position": "RB",
+    "team": "TEN",
+    "bye_week": "9",
+    "adp": 171.3
+  },
+  {
+    "id": "fp_169",
+    "name": "Aaron Rodgers",
+    "position": "QB",
+    "team": "PIT",
+    "bye_week": "9",
+    "adp": 172.0
   },
   {
     "id": "fp_170",
-    "name": "Brandon Aiyuk",
-    "position": "WR",
-    "team": "SF",
-    "bye_week": "8",
-    "adp": 173.3
-  },
-  {
-    "id": "fp_171",
     "name": "Mike Washington Jr.",
     "position": "RB",
     "team": "LV",
@@ -1368,12 +1360,20 @@ const PLAYERS_DATA = [
     "adp": 173.3
   },
   {
-    "id": "fp_172",
+    "id": "fp_171",
     "name": "Antonio Williams",
     "position": "WR",
     "team": "WAS",
     "bye_week": "7",
-    "adp": 175.0
+    "adp": 173.7
+  },
+  {
+    "id": "fp_172",
+    "name": "Brandon Aiyuk",
+    "position": "WR",
+    "team": "SF",
+    "bye_week": "8",
+    "adp": 174.3
   },
   {
     "id": "fp_173",
@@ -1385,14 +1385,6 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_174",
-    "name": "David Njoku",
-    "position": "TE",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 177.0
-  },
-  {
-    "id": "fp_175",
     "name": "Emmett Johnson",
     "position": "RB",
     "team": "KC",
@@ -1400,12 +1392,20 @@ const PLAYERS_DATA = [
     "adp": 177.0
   },
   {
+    "id": "fp_175",
+    "name": "David Njoku",
+    "position": "TE",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 177.3
+  },
+  {
     "id": "fp_176",
     "name": "Deebo Samuel Sr.",
     "position": "WR",
     "team": "FA",
     "bye_week": "-",
-    "adp": 177.7
+    "adp": 177.3
   },
   {
     "id": "fp_177",
@@ -1413,7 +1413,7 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "SEA",
     "bye_week": "11",
-    "adp": 178.3
+    "adp": 177.7
   },
   {
     "id": "fp_178",
@@ -1421,7 +1421,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 178.3
+    "adp": 177.7
   },
   {
     "id": "fp_179",
@@ -1429,7 +1429,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "LV",
     "bye_week": "13",
-    "adp": 179.3
+    "adp": 178.0
   },
   {
     "id": "fp_180",
@@ -1453,7 +1453,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 182.0
+    "adp": 183.0
   },
   {
     "id": "fp_183",
@@ -1461,7 +1461,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 183.3
+    "adp": 183.7
   },
   {
     "id": "fp_184",
@@ -1469,7 +1469,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "PHI",
     "bye_week": "10",
-    "adp": 185.0
+    "adp": 185.3
   },
   {
     "id": "fp_185",
@@ -1477,7 +1477,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "DET",
     "bye_week": "6",
-    "adp": 189.3
+    "adp": 187.7
   },
   {
     "id": "fp_186",
@@ -1485,55 +1485,55 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "TB",
     "bye_week": "10",
-    "adp": 190.0
+    "adp": 188.7
   },
   {
     "id": "fp_187",
-    "name": "Kaytron Allen",
-    "position": "RB",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 195.0
-  },
-  {
-    "id": "fp_188",
-    "name": "James Conner",
-    "position": "RB",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 195.7
-  },
-  {
-    "id": "fp_189",
     "name": "Germie Bernard",
     "position": "WR",
     "team": "PIT",
     "bye_week": "9",
-    "adp": 195.7
+    "adp": 193.0
   },
   {
-    "id": "fp_190",
+    "id": "fp_188",
+    "name": "Sean Tucker",
+    "position": "RB",
+    "team": "TB",
+    "bye_week": "10",
+    "adp": 194.0
+  },
+  {
+    "id": "fp_189",
     "name": "Malik Washington",
     "position": "WR",
     "team": "MIA",
     "bye_week": "6",
-    "adp": 196.3
+    "adp": 194.7
+  },
+  {
+    "id": "fp_190",
+    "name": "Kaytron Allen",
+    "position": "RB",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 194.7
   },
   {
     "id": "fp_191",
-    "name": "Tua Tagovailoa",
-    "position": "QB",
-    "team": "ATL",
-    "bye_week": "11",
-    "adp": 196.3
-  },
-  {
-    "id": "fp_192",
     "name": "De'Zhaun Stribling",
     "position": "WR",
     "team": "SF",
     "bye_week": "8",
-    "adp": 197.0
+    "adp": 195.3
+  },
+  {
+    "id": "fp_192",
+    "name": "Tua Tagovailoa",
+    "position": "QB",
+    "team": "ATL",
+    "bye_week": "11",
+    "adp": 196.0
   },
   {
     "id": "fp_193",
@@ -1541,15 +1541,15 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "PIT",
     "bye_week": "9",
-    "adp": 197.0
+    "adp": 196.0
   },
   {
     "id": "fp_194",
-    "name": "Sean Tucker",
+    "name": "James Conner",
     "position": "RB",
-    "team": "TB",
-    "bye_week": "10",
-    "adp": 197.3
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 196.7
   },
   {
     "id": "fp_195",
@@ -1557,7 +1557,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "NE",
     "bye_week": "11",
-    "adp": 199.3
+    "adp": 199.0
   },
   {
     "id": "fp_196",
@@ -1565,7 +1565,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "MIA",
     "bye_week": "6",
-    "adp": 199.3
+    "adp": 199.0
   },
   {
     "id": "fp_197",
@@ -1573,7 +1573,7 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "SEA",
     "bye_week": "11",
-    "adp": 201.0
+    "adp": 201.3
   },
   {
     "id": "fp_198",
@@ -1581,42 +1581,58 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "NYJ",
     "bye_week": "13",
-    "adp": 203.0
+    "adp": 202.3
   },
   {
     "id": "fp_199",
-    "name": "Tre' Harris",
-    "position": "WR",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 204.7
-  },
-  {
-    "id": "fp_200",
-    "name": "Malachi Fields",
-    "position": "WR",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 205.0
-  },
-  {
-    "id": "fp_201",
     "name": "Ryan Flournoy",
     "position": "WR",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 205.3
+    "adp": 202.7
+  },
+  {
+    "id": "fp_200",
+    "name": "Tre' Harris",
+    "position": "WR",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 203.0
+  },
+  {
+    "id": "fp_201",
+    "name": "Travis Hunter",
+    "position": "WR",
+    "team": "JAC",
+    "bye_week": "7",
+    "adp": 176.0
   },
   {
     "id": "fp_202",
+    "name": "Malachi Fields",
+    "position": "WR",
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 204.3
+  },
+  {
+    "id": "fp_203",
     "name": "Zachariah Branch",
     "position": "WR",
     "team": "ATL",
     "bye_week": "11",
-    "adp": 207.3
+    "adp": 205.7
   },
   {
-    "id": "fp_203",
+    "id": "fp_204",
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 209.0
+  },
+  {
+    "id": "fp_205",
     "name": "Chris Brooks",
     "position": "RB",
     "team": "GB",
@@ -1624,52 +1640,36 @@ const PLAYERS_DATA = [
     "adp": 209.0
   },
   {
-    "id": "fp_204",
-    "name": "Travis Hunter",
-    "position": "WR",
-    "team": "JAC",
-    "bye_week": "7",
-    "adp": 177.5
-  },
-  {
-    "id": "fp_205",
+    "id": "fp_206",
     "name": "Deshaun Watson",
     "position": "QB",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 210.0
-  },
-  {
-    "id": "fp_206",
-    "name": "Darnell Mooney",
-    "position": "WR",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 211.3
+    "adp": 209.3
   },
   {
     "id": "fp_207",
-    "name": "MarShawn Lloyd",
-    "position": "RB",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 211.7
-  },
-  {
-    "id": "fp_208",
-    "name": "Kimani Vidal",
-    "position": "RB",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 212.0
-  },
-  {
-    "id": "fp_209",
     "name": "Tank Dell",
     "position": "WR",
     "team": "HOU",
     "bye_week": "8",
-    "adp": 212.3
+    "adp": 210.7
+  },
+  {
+    "id": "fp_208",
+    "name": "Darnell Mooney",
+    "position": "WR",
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 211.0
+  },
+  {
+    "id": "fp_209",
+    "name": "Kimani Vidal",
+    "position": "RB",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 213.3
   },
   {
     "id": "fp_210",
@@ -1677,7 +1677,7 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "MIA",
     "bye_week": "6",
-    "adp": 217.0
+    "adp": 214.7
   },
   {
     "id": "fp_211",
@@ -1685,50 +1685,58 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "MIN",
     "bye_week": "6",
-    "adp": 217.3
+    "adp": 217.0
   },
   {
     "id": "fp_212",
-    "name": "Ray Davis",
-    "position": "RB",
-    "team": "BUF",
-    "bye_week": "7",
-    "adp": 218.3
-  },
-  {
-    "id": "fp_213",
-    "name": "Kaelon Black",
-    "position": "RB",
-    "team": "SF",
-    "bye_week": "8",
-    "adp": 219.0
-  },
-  {
-    "id": "fp_214",
     "name": "Michael Penix Jr.",
     "position": "QB",
     "team": "ATL",
     "bye_week": "11",
-    "adp": 219.0
+    "adp": 217.3
   },
   {
-    "id": "fp_215",
-    "name": "Jordan James",
+    "id": "fp_213",
+    "name": "Ray Davis",
+    "position": "RB",
+    "team": "BUF",
+    "bye_week": "7",
+    "adp": 217.7
+  },
+  {
+    "id": "fp_214",
+    "name": "Kaelon Black",
     "position": "RB",
     "team": "SF",
     "bye_week": "8",
-    "adp": 219.3
+    "adp": 218.0
   },
   {
-    "id": "fp_216",
+    "id": "fp_215",
     "name": "Colby Parkinson",
     "position": "TE",
     "team": "LAR",
     "bye_week": "11",
-    "adp": 219.7
+    "adp": 219.0
+  },
+  {
+    "id": "fp_216",
+    "name": "Jordan James",
+    "position": "RB",
+    "team": "SF",
+    "bye_week": "8",
+    "adp": 219.0
   },
   {
     "id": "fp_217",
+    "name": "Evan Engram",
+    "position": "TE",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 220.0
+  },
+  {
+    "id": "fp_218",
     "name": "Jake Tonges",
     "position": "TE",
     "team": "SF",
@@ -1736,60 +1744,52 @@ const PLAYERS_DATA = [
     "adp": 220.0
   },
   {
-    "id": "fp_218",
+    "id": "fp_219",
     "name": "Mike Gesicki",
     "position": "TE",
     "team": "CIN",
     "bye_week": "6",
-    "adp": 222.3
-  },
-  {
-    "id": "fp_219",
-    "name": "Evan Engram",
-    "position": "TE",
-    "team": "DEN",
-    "bye_week": "10",
-    "adp": 222.7
+    "adp": 221.0
   },
   {
     "id": "fp_220",
-    "name": "Adonai Mitchell",
-    "position": "WR",
-    "team": "NYJ",
-    "bye_week": "13",
-    "adp": 223.0
-  },
-  {
-    "id": "fp_221",
     "name": "Kirk Cousins",
     "position": "QB",
     "team": "LV",
     "bye_week": "13",
-    "adp": 223.3
+    "adp": 221.3
+  },
+  {
+    "id": "fp_221",
+    "name": "Adonai Mitchell",
+    "position": "WR",
+    "team": "NYJ",
+    "bye_week": "13",
+    "adp": 221.3
   },
   {
     "id": "fp_222",
-    "name": "Ollie Gordon II",
-    "position": "RB",
-    "team": "MIA",
-    "bye_week": "6",
-    "adp": 226.0
-  },
-  {
-    "id": "fp_223",
     "name": "Ted Hurst III",
     "position": "WR",
     "team": "TB",
     "bye_week": "10",
-    "adp": 226.3
+    "adp": 222.0
   },
   {
-    "id": "fp_224",
+    "id": "fp_223",
     "name": "Christian Kirk",
     "position": "WR",
     "team": "SF",
     "bye_week": "8",
-    "adp": 226.3
+    "adp": 222.7
+  },
+  {
+    "id": "fp_224",
+    "name": "Joe Mixon",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 254.5
   },
   {
     "id": "fp_225",
@@ -1797,15 +1797,15 @@ const PLAYERS_DATA = [
     "position": "TE",
     "team": "LAR",
     "bye_week": "11",
-    "adp": 226.3
+    "adp": 223.0
   },
   {
     "id": "fp_226",
-    "name": "Chris Brazzell II",
-    "position": "WR",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 226.3
+    "name": "Justice Hill",
+    "position": "RB",
+    "team": "BAL",
+    "bye_week": "13",
+    "adp": 224.7
   },
   {
     "id": "fp_227",
@@ -1813,15 +1813,15 @@ const PLAYERS_DATA = [
     "position": "QB",
     "team": "CLE",
     "bye_week": "11",
-    "adp": 226.7
+    "adp": 225.7
   },
   {
     "id": "fp_228",
-    "name": "Justice Hill",
-    "position": "RB",
-    "team": "BAL",
-    "bye_week": "13",
-    "adp": 227.7
+    "name": "Justin Fields",
+    "position": "QB",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 231.3
   },
   {
     "id": "fp_229",
@@ -1829,175 +1829,175 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "PHI",
     "bye_week": "10",
-    "adp": 228.3
+    "adp": 226.3
   },
   {
     "id": "fp_230",
+    "name": "Kaleb Johnson",
+    "position": "RB",
+    "team": "PIT",
+    "bye_week": "9",
+    "adp": 224.0
+  },
+  {
+    "id": "fp_231",
+    "name": "Chris Brazzell II",
+    "position": "WR",
+    "team": "CAR",
+    "bye_week": "5",
+    "adp": 227.3
+  },
+  {
+    "id": "fp_232",
+    "name": "Jonnu Smith",
+    "position": "TE",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 301.0
+  },
+  {
+    "id": "fp_233",
     "name": "Keon Coleman",
     "position": "WR",
     "team": "BUF",
     "bye_week": "7",
-    "adp": 228.3
+    "adp": 229.0
   },
   {
-    "id": "fp_231",
-    "name": "J.J. McCarthy",
-    "position": "QB",
-    "team": "MIN",
-    "bye_week": "6",
-    "adp": 232.3
-  },
-  {
-    "id": "fp_232",
-    "name": "Justin Fields",
-    "position": "QB",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 232.0
-  },
-  {
-    "id": "fp_233",
+    "id": "fp_234",
     "name": "Najee Harris",
     "position": "RB",
     "team": "LAC",
     "bye_week": "7",
-    "adp": 232.0
-  },
-  {
-    "id": "fp_234",
-    "name": "Joe Mixon",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 266.5
+    "adp": 230.7
   },
   {
     "id": "fp_235",
+    "name": "Kareem Hunt",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 264.5
+  },
+  {
+    "id": "fp_236",
+    "name": "Troy Franklin",
+    "position": "WR",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 218.5
+  },
+  {
+    "id": "fp_237",
+    "name": "Ja'Kobi Lane",
+    "position": "WR",
+    "team": "BAL",
+    "bye_week": "13",
+    "adp": 234.3
+  },
+  {
+    "id": "fp_238",
+    "name": "Jaylen Wright",
+    "position": "RB",
+    "team": "MIA",
+    "bye_week": "6",
+    "adp": 239.0
+  },
+  {
+    "id": "fp_239",
+    "name": "Jaydon Blue",
+    "position": "RB",
+    "team": "DAL",
+    "bye_week": "14",
+    "adp": 238.7
+  },
+  {
+    "id": "fp_240",
+    "name": "Tory Horton",
+    "position": "WR",
+    "team": "SEA",
+    "bye_week": "11",
+    "adp": 229.0
+  },
+  {
+    "id": "fp_241",
     "name": "Elijah Sarratt",
     "position": "WR",
     "team": "BAL",
     "bye_week": "13",
-    "adp": 233.3
+    "adp": 229.5
   },
   {
-    "id": "fp_236",
-    "name": "Ja'Kobi Lane",
+    "id": "fp_242",
+    "name": "Jack Bech",
+    "position": "WR",
+    "team": "LV",
+    "bye_week": "13",
+    "adp": 239.3
+  },
+  {
+    "id": "fp_243",
+    "name": "Austin Ekeler",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 298.0
+  },
+  {
+    "id": "fp_244",
+    "name": "Jalen Tolbert",
+    "position": "WR",
+    "team": "MIA",
+    "bye_week": "6",
+    "adp": 233.5
+  },
+  {
+    "id": "fp_245",
+    "name": "Pat Bryant",
+    "position": "WR",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 234.0
+  },
+  {
+    "id": "fp_246",
+    "name": "Keenan Allen",
+    "position": "WR",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 243.3
+  },
+  {
+    "id": "fp_247",
+    "name": "Rashod Bateman",
     "position": "WR",
     "team": "BAL",
     "bye_week": "13",
     "adp": 236.0
   },
   {
-    "id": "fp_237",
-    "name": "Jonnu Smith",
-    "position": "TE",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 273.0
-  },
-  {
-    "id": "fp_238",
-    "name": "Troy Franklin",
-    "position": "WR",
-    "team": "DEN",
-    "bye_week": "10",
-    "adp": 219.5
-  },
-  {
-    "id": "fp_239",
-    "name": "Kaleb Johnson",
+    "id": "fp_248",
+    "name": "Adam Randall",
     "position": "RB",
-    "team": "PIT",
-    "bye_week": "9",
-    "adp": 229.0
-  },
-  {
-    "id": "fp_240",
-    "name": "Jaydon Blue",
-    "position": "RB",
-    "team": "DAL",
-    "bye_week": "14",
-    "adp": 242.3
-  },
-  {
-    "id": "fp_241",
-    "name": "Jaylen Wright",
-    "position": "RB",
-    "team": "MIA",
-    "bye_week": "6",
-    "adp": 243.3
-  },
-  {
-    "id": "fp_242",
-    "name": "Jerome Ford",
-    "position": "RB",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 268.0
-  },
-  {
-    "id": "fp_243",
-    "name": "Tory Horton",
-    "position": "WR",
-    "team": "SEA",
-    "bye_week": "11",
-    "adp": 229.5
-  },
-  {
-    "id": "fp_244",
-    "name": "Pat Bryant",
-    "position": "WR",
-    "team": "DEN",
-    "bye_week": "10",
-    "adp": 245.0
-  },
-  {
-    "id": "fp_245",
-    "name": "Keenan Allen",
-    "position": "WR",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 245.0
-  },
-  {
-    "id": "fp_246",
-    "name": "Rashod Bateman",
-    "position": "WR",
     "team": "BAL",
     "bye_week": "13",
-    "adp": 246.0
+    "adp": 238.0
   },
   {
-    "id": "fp_247",
-    "name": "Jack Bech",
-    "position": "WR",
-    "team": "LV",
-    "bye_week": "13",
-    "adp": 246.3
+    "id": "fp_249",
+    "name": "Oscar Delp",
+    "position": "TE",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 245.0
   },
   {
-    "id": "fp_248",
+    "id": "fp_250",
     "name": "Michael Mayer",
     "position": "TE",
     "team": "LV",
     "bye_week": "13",
-    "adp": 248.3
-  },
-  {
-    "id": "fp_249",
-    "name": "Samaje Perine",
-    "position": "RB",
-    "team": "CIN",
-    "bye_week": "6",
-    "adp": 248.3
-  },
-  {
-    "id": "fp_250",
-    "name": "Kareem Hunt",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 290.5
+    "adp": 245.7
   },
   {
     "id": "fp_251",
@@ -2005,39 +2005,39 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "BUF",
     "bye_week": "7",
-    "adp": 249.7
+    "adp": 246.7
   },
   {
     "id": "fp_252",
-    "name": "Jalen Tolbert",
-    "position": "WR",
-    "team": "MIA",
+    "name": "Samaje Perine",
+    "position": "RB",
+    "team": "CIN",
     "bye_week": "6",
-    "adp": 238.0
+    "adp": 240.0
   },
   {
     "id": "fp_253",
-    "name": "Jaylin Noel",
-    "position": "WR",
-    "team": "HOU",
+    "name": "Devin Singletary",
+    "position": "RB",
+    "team": "NYG",
     "bye_week": "8",
-    "adp": 239.5
+    "adp": 299.0
   },
   {
     "id": "fp_254",
-    "name": "Adam Randall",
-    "position": "RB",
-    "team": "BAL",
-    "bye_week": "13",
-    "adp": 240.5
+    "name": "Theo Johnson",
+    "position": "TE",
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 241.5
   },
   {
     "id": "fp_255",
-    "name": "Austin Ekeler",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 293.0
+    "name": "J.J. McCarthy",
+    "position": "QB",
+    "team": "MIN",
+    "bye_week": "6",
+    "adp": 251.0
   },
   {
     "id": "fp_256",
@@ -2045,162 +2045,138 @@ const PLAYERS_DATA = [
     "position": "WR",
     "team": "KC",
     "bye_week": "5",
-    "adp": 252.3
+    "adp": 243.0
   },
   {
     "id": "fp_257",
-    "name": "Theo Johnson",
-    "position": "TE",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 252.7
+    "name": "Ollie Gordon II",
+    "position": "RB",
+    "team": "MIA",
+    "bye_week": "6",
+    "adp": 244.5
   },
   {
     "id": "fp_258",
-    "name": "Oscar Delp",
-    "position": "TE",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 243.5
-  },
-  {
-    "id": "fp_259",
-    "name": "Mason Taylor",
-    "position": "TE",
-    "team": "NYJ",
-    "bye_week": "13",
-    "adp": 255.3
-  },
-  {
-    "id": "fp_260",
-    "name": "Caleb Douglas",
-    "position": "WR",
-    "team": "MIA",
-    "bye_week": "6",
-    "adp": 246.5
-  },
-  {
-    "id": "fp_261",
-    "name": "Dawson Knox",
-    "position": "TE",
-    "team": "BUF",
-    "bye_week": "7",
-    "adp": 255.7
-  },
-  {
-    "id": "fp_262",
-    "name": "Chimere Dike",
-    "position": "WR",
-    "team": "TEN",
-    "bye_week": "9",
-    "adp": 249.5
-  },
-  {
-    "id": "fp_263",
-    "name": "Joe Flacco",
-    "position": "QB",
-    "team": "CIN",
-    "bye_week": "6",
-    "adp": 273.0
-  },
-  {
-    "id": "fp_264",
-    "name": "Devin Singletary",
-    "position": "RB",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 270.0
-  },
-  {
-    "id": "fp_265",
     "name": "Skyler Bell",
     "position": "WR",
     "team": "BUF",
     "bye_week": "7",
-    "adp": 251.5
+    "adp": 234.0
   },
   {
-    "id": "fp_266",
-    "name": "Devaughn Vele",
-    "position": "WR",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 255.0
-  },
-  {
-    "id": "fp_267",
-    "name": "Malik Davis",
-    "position": "RB",
-    "team": "DAL",
-    "bye_week": "14",
-    "adp": 255.0
-  },
-  {
-    "id": "fp_268",
-    "name": "Justin Joly",
-    "position": "TE",
-    "team": "DEN",
-    "bye_week": "10",
-    "adp": 256.5
-  },
-  {
-    "id": "fp_269",
-    "name": "Andrei Iosivas",
-    "position": "WR",
-    "team": "CIN",
-    "bye_week": "6",
-    "adp": 240.0
-  },
-  {
-    "id": "fp_270",
+    "id": "fp_259",
     "name": "Carson Beck",
     "position": "QB",
     "team": "ARI",
     "bye_week": "14",
-    "adp": 243.0
+    "adp": 246.5
   },
   {
-    "id": "fp_271",
-    "name": "Devin Neal",
-    "position": "RB",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 282.0
-  },
-  {
-    "id": "fp_272",
-    "name": "Mack Hollins",
-    "position": "WR",
-    "team": "NE",
-    "bye_week": "11",
-    "adp": 263.5
-  },
-  {
-    "id": "fp_273",
-    "name": "Brenen Thompson",
-    "position": "WR",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 260.5
-  },
-  {
-    "id": "fp_274",
-    "name": "Ja'Tavion Sanders",
+    "id": "fp_260",
+    "name": "Mason Taylor",
     "position": "TE",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 249.0
+    "team": "NYJ",
+    "bye_week": "13",
+    "adp": 253.3
   },
   {
-    "id": "fp_275",
+    "id": "fp_261",
     "name": "Eli Heidenreich",
     "position": "RB",
     "team": "PIT",
     "bye_week": "9",
+    "adp": 263.5
+  },
+  {
+    "id": "fp_262",
+    "name": "Jaylin Noel",
+    "position": "WR",
+    "team": "HOU",
+    "bye_week": "8",
+    "adp": 239.0
+  },
+  {
+    "id": "fp_263",
+    "name": "Devaughn Vele",
+    "position": "WR",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 249.0
+  },
+  {
+    "id": "fp_264",
+    "name": "Devin Neal",
+    "position": "RB",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 283.0
+  },
+  {
+    "id": "fp_265",
+    "name": "Chimere Dike",
+    "position": "WR",
+    "team": "TEN",
+    "bye_week": "9",
+    "adp": 250.0
+  },
+  {
+    "id": "fp_266",
+    "name": "Dawson Knox",
+    "position": "TE",
+    "team": "BUF",
+    "bye_week": "7",
+    "adp": 254.7
+  },
+  {
+    "id": "fp_267",
+    "name": "Andrei Iosivas",
+    "position": "WR",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 242.0
+  },
+  {
+    "id": "fp_268",
+    "name": "Max Klare",
+    "position": "TE",
+    "team": "LAR",
+    "bye_week": "11",
     "adp": 268.0
   },
   {
-    "id": "fp_276",
+    "id": "fp_269",
+    "name": "Zavion Thomas",
+    "position": "WR",
+    "team": "CHI",
+    "bye_week": "10",
+    "adp": 247.0
+  },
+  {
+    "id": "fp_270",
+    "name": "Ja'Tavion Sanders",
+    "position": "TE",
+    "team": "CAR",
+    "bye_week": "5",
+    "adp": 248.0
+  },
+  {
+    "id": "fp_271",
+    "name": "Brenen Thompson",
+    "position": "WR",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 253.5
+  },
+  {
+    "id": "fp_272",
+    "name": "Trey Benson",
+    "position": "RB",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 271.0
+  },
+  {
+    "id": "fp_273",
     "name": "Darnell Washington",
     "position": "TE",
     "team": "PIT",
@@ -2208,223 +2184,199 @@ const PLAYERS_DATA = [
     "adp": 250.0
   },
   {
-    "id": "fp_277",
-    "name": "Tutu Atwell",
-    "position": "WR",
-    "team": "MIA",
-    "bye_week": "6",
-    "adp": 278.5
-  },
-  {
-    "id": "fp_278",
-    "name": "Zavion Thomas",
-    "position": "WR",
-    "team": "CHI",
-    "bye_week": "10",
-    "adp": 251.0
-  },
-  {
-    "id": "fp_279",
-    "name": "Darius Slayton",
-    "position": "WR",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 252.0
-  },
-  {
-    "id": "fp_280",
-    "name": "Trey Benson",
-    "position": "RB",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 275.0
-  },
-  {
-    "id": "fp_281",
-    "name": "Elijah Arroyo",
-    "position": "TE",
-    "team": "SEA",
-    "bye_week": "11",
-    "adp": 263.5
-  },
-  {
-    "id": "fp_282",
-    "name": "Hollywood Brown",
-    "position": "WR",
-    "team": "PHI",
-    "bye_week": "10",
-    "adp": 266.0
-  },
-  {
-    "id": "fp_283",
-    "name": "Jahan Dotson",
-    "position": "WR",
-    "team": "ATL",
-    "bye_week": "11",
-    "adp": 268.0
-  },
-  {
-    "id": "fp_284",
-    "name": "Kyle Williams",
+    "id": "fp_274",
+    "name": "Mack Hollins",
     "position": "WR",
     "team": "NE",
     "bye_week": "11",
-    "adp": 256.0
+    "adp": 264.5
   },
   {
-    "id": "fp_285",
-    "name": "Zach Ertz",
-    "position": "TE",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 302.0
-  },
-  {
-    "id": "fp_286",
-    "name": "Eli Raridon",
-    "position": "TE",
-    "team": "NE",
-    "bye_week": "11",
-    "adp": 258.0
-  },
-  {
-    "id": "fp_287",
-    "name": "Max Klare",
-    "position": "TE",
-    "team": "LAR",
-    "bye_week": "11",
-    "adp": 270.5
-  },
-  {
-    "id": "fp_288",
-    "name": "Savion Williams",
-    "position": "WR",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 262.0
-  },
-  {
-    "id": "fp_289",
-    "name": "DJ Giddens",
-    "position": "RB",
-    "team": "IND",
-    "bye_week": "13",
-    "adp": 264.0
-  },
-  {
-    "id": "fp_290",
-    "name": "Tyler Higbee",
-    "position": "TE",
-    "team": "LAR",
-    "bye_week": "11",
-    "adp": 328.0
-  },
-  {
-    "id": "fp_291",
+    "id": "fp_275",
     "name": "LeQuint Allen Jr.",
     "position": "RB",
     "team": "JAC",
     "bye_week": "7",
-    "adp": 269.5
+    "adp": 263.0
   },
   {
-    "id": "fp_292",
-    "name": "Jalen Royals",
+    "id": "fp_276",
+    "name": "Darius Slayton",
     "position": "WR",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 270.0
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 253.0
   },
   {
-    "id": "fp_293",
-    "name": "Kendrick Bourne",
-    "position": "WR",
-    "team": "ARI",
+    "id": "fp_277",
+    "name": "Malik Davis",
+    "position": "RB",
+    "team": "DAL",
     "bye_week": "14",
-    "adp": 273.0
+    "adp": 256.0
   },
   {
-    "id": "fp_294",
+    "id": "fp_278",
+    "name": "Caleb Douglas",
+    "position": "WR",
+    "team": "MIA",
+    "bye_week": "6",
+    "adp": 255.0
+  },
+  {
+    "id": "fp_279",
+    "name": "Hollywood Brown",
+    "position": "WR",
+    "team": "PHI",
+    "bye_week": "10",
+    "adp": 268.0
+  },
+  {
+    "id": "fp_280",
     "name": "Elic Ayomanor",
     "position": "WR",
     "team": "TEN",
     "bye_week": "9",
-    "adp": 274.0
+    "adp": 265.5
   },
   {
-    "id": "fp_295",
-    "name": "Tez Johnson",
+    "id": "fp_281",
+    "name": "Eli Raridon",
+    "position": "TE",
+    "team": "NE",
+    "bye_week": "11",
+    "adp": 260.0
+  },
+  {
+    "id": "fp_282",
+    "name": "Kyle Williams",
     "position": "WR",
-    "team": "TB",
-    "bye_week": "10",
-    "adp": 276.0
+    "team": "NE",
+    "bye_week": "11",
+    "adp": 261.0
   },
   {
-    "id": "fp_296",
+    "id": "fp_283",
+    "name": "DJ Giddens",
+    "position": "RB",
+    "team": "IND",
+    "bye_week": "13",
+    "adp": 263.0
+  },
+  {
+    "id": "fp_284",
+    "name": "Elijah Arroyo",
+    "position": "TE",
+    "team": "SEA",
+    "bye_week": "11",
+    "adp": 267.0
+  },
+  {
+    "id": "fp_285",
+    "name": "Justin Joly",
+    "position": "TE",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 268.0
+  },
+  {
+    "id": "fp_286",
+    "name": "Savion Williams",
+    "position": "WR",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 269.0
+  },
+  {
+    "id": "fp_287",
     "name": "Cole Kmet",
     "position": "TE",
     "team": "CHI",
     "bye_week": "10",
-    "adp": 278.0
+    "adp": 270.0
   },
   {
-    "id": "fp_297",
-    "name": "Bryce Lance",
+    "id": "fp_288",
+    "name": "Kendrick Bourne",
     "position": "WR",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 279.0
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 272.0
   },
   {
-    "id": "fp_298",
-    "name": "George Holani",
-    "position": "RB",
-    "team": "SEA",
-    "bye_week": "11",
-    "adp": 280.0
+    "id": "fp_289",
+    "name": "Tez Johnson",
+    "position": "WR",
+    "team": "TB",
+    "bye_week": "10",
+    "adp": 273.0
   },
   {
-    "id": "fp_299",
+    "id": "fp_290",
     "name": "Mac Jones",
     "position": "QB",
     "team": "SF",
     "bye_week": "8",
-    "adp": 284.0
+    "adp": 277.0
   },
   {
-    "id": "fp_300",
-    "name": "Tahj Brooks",
-    "position": "RB",
-    "team": "CIN",
-    "bye_week": "6",
+    "id": "fp_291",
+    "name": "Jalen Royals",
+    "position": "WR",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 281.0
+  },
+  {
+    "id": "fp_292",
+    "name": "Xavier Legette",
+    "position": "WR",
+    "team": "CAR",
+    "bye_week": "5",
+    "adp": 282.0
+  },
+  {
+    "id": "fp_293",
+    "name": "Bryce Lance",
+    "position": "WR",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 283.0
+  },
+  {
+    "id": "fp_294",
+    "name": "Jahan Dotson",
+    "position": "WR",
+    "team": "ATL",
+    "bye_week": "11",
     "adp": 285.0
   },
   {
-    "id": "fp_301",
+    "id": "fp_295",
     "name": "Cyrus Allen",
     "position": "WR",
     "team": "KC",
     "bye_week": "5",
+    "adp": 286.0
+  },
+  {
+    "id": "fp_296",
+    "name": "George Holani",
+    "position": "RB",
+    "team": "SEA",
+    "bye_week": "11",
+    "adp": 287.0
+  },
+  {
+    "id": "fp_297",
+    "name": "Kalif Raymond",
+    "position": "WR",
+    "team": "CHI",
+    "bye_week": "10",
     "adp": 288.0
   },
   {
-    "id": "fp_302",
-    "name": "Dyami Brown",
-    "position": "WR",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 289.0
-  },
-  {
-    "id": "fp_303",
-    "name": "KaVontae Turpin",
-    "position": "WR",
-    "team": "DAL",
-    "bye_week": "14",
-    "adp": 290.0
-  },
-  {
-    "id": "fp_304",
+    "id": "fp_298",
     "name": "Marvin Mims Jr.",
     "position": "WR",
     "team": "DEN",
@@ -2432,68 +2384,116 @@ const PLAYERS_DATA = [
     "adp": 291.0
   },
   {
-    "id": "fp_305",
-    "name": "Calvin Austin III",
-    "position": "WR",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 292.0
-  },
-  {
-    "id": "fp_306",
-    "name": "Isaiah Bond",
-    "position": "WR",
-    "team": "CLE",
-    "bye_week": "11",
-    "adp": 294.0
-  },
-  {
-    "id": "fp_307",
-    "name": "Devontez Walker",
-    "position": "WR",
-    "team": "BAL",
-    "bye_week": "13",
-    "adp": 295.0
-  },
-  {
-    "id": "fp_308",
-    "name": "Xavier Legette",
-    "position": "WR",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 296.0
-  },
-  {
-    "id": "fp_309",
+    "id": "fp_299",
     "name": "Treylon Burks",
     "position": "WR",
     "team": "WAS",
     "bye_week": "7",
+    "adp": 292.0
+  },
+  {
+    "id": "fp_300",
+    "name": "Joshua Palmer",
+    "position": "WR",
+    "team": "BUF",
+    "bye_week": "7",
+    "adp": 294.0
+  },
+  {
+    "id": "fp_301",
+    "name": "Tahj Brooks",
+    "position": "RB",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 295.0
+  },
+  {
+    "id": "fp_302",
+    "name": "Nick Westbrook-Ikhine",
+    "position": "WR",
+    "team": "IND",
+    "bye_week": "13",
+    "adp": 296.0
+  },
+  {
+    "id": "fp_303",
+    "name": "Jahdae Walker",
+    "position": "WR",
+    "team": "CHI",
+    "bye_week": "10",
     "adp": 297.0
   },
   {
+    "id": "fp_304",
+    "name": "Devontez Walker",
+    "position": "WR",
+    "team": "BAL",
+    "bye_week": "13",
+    "adp": 298.0
+  },
+  {
+    "id": "fp_305",
+    "name": "Darius Cooper",
+    "position": "WR",
+    "team": "PHI",
+    "bye_week": "10",
+    "adp": 299.0
+  },
+  {
+    "id": "fp_306",
+    "name": "Dyami Brown",
+    "position": "WR",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 300.0
+  },
+  {
+    "id": "fp_307",
+    "name": "Erik Ezukanma",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 301.0
+  },
+  {
+    "id": "fp_308",
+    "name": "Noah Gray",
+    "position": "TE",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 302.0
+  },
+  {
+    "id": "fp_309",
+    "name": "Calvin Austin III",
+    "position": "WR",
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 303.0
+  },
+  {
     "id": "fp_310",
+    "name": "Isaiah Bond",
+    "position": "WR",
+    "team": "CLE",
+    "bye_week": "11",
+    "adp": 304.0
+  },
+  {
+    "id": "fp_311",
     "name": "Mitchell Evans",
     "position": "TE",
     "team": "CAR",
     "bye_week": "5",
-    "adp": 299.0
-  },
-  {
-    "id": "fp_311",
-    "name": "Kalif Raymond",
-    "position": "WR",
-    "team": "CHI",
-    "bye_week": "10",
-    "adp": 300.0
+    "adp": 305.0
   },
   {
     "id": "fp_312",
-    "name": "Jameis Winston",
-    "position": "QB",
-    "team": "NYG",
-    "bye_week": "8",
-    "adp": 301.0
+    "name": "Luke McCaffrey",
+    "position": "WR",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 306.0
   },
   {
     "id": "fp_313",
@@ -2501,702 +2501,702 @@ const PLAYERS_DATA = [
     "position": "RB",
     "team": "FA",
     "bye_week": "-",
-    "adp": 302.0
+    "adp": 307.0
   },
   {
     "id": "fp_314",
+    "name": "Khalil Herbert",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 308.0
+  },
+  {
+    "id": "fp_315",
     "name": "Austin Reed",
     "position": "QB",
     "team": "FA",
     "bye_week": "-",
-    "adp": 303.0
+    "adp": 309.0
   },
   {
-    "id": "fp_315",
+    "id": "fp_316",
+    "name": "D'Onta Foreman",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 310.0
+  },
+  {
+    "id": "fp_317",
     "name": "DeMario Douglas",
     "position": "WR",
     "team": "NE",
     "bye_week": "11",
-    "adp": 304.0
-  },
-  {
-    "id": "fp_316",
-    "name": "Noah Gray",
-    "position": "TE",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 305.0
-  },
-  {
-    "id": "fp_317",
-    "name": "Konata Mumpfield",
-    "position": "WR",
-    "team": "LAR",
-    "bye_week": "11",
-    "adp": 306.0
-  },
-  {
-    "id": "fp_318",
-    "name": "Ben Sinnott",
-    "position": "TE",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 308.0
-  },
-  {
-    "id": "fp_319",
-    "name": "Jimmy Horn Jr.",
-    "position": "WR",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 309.0
-  },
-  {
-    "id": "fp_320",
-    "name": "Nick Westbrook-Ikhine",
-    "position": "WR",
-    "team": "IND",
-    "bye_week": "13",
-    "adp": 310.0
-  },
-  {
-    "id": "fp_321",
-    "name": "Jordan Whittington",
-    "position": "WR",
-    "team": "LAR",
-    "bye_week": "11",
     "adp": 311.0
   },
   {
-    "id": "fp_322",
-    "name": "Brashard Smith",
-    "position": "RB",
-    "team": "KC",
-    "bye_week": "5",
+    "id": "fp_318",
+    "name": "KaVontae Turpin",
+    "position": "WR",
+    "team": "DAL",
+    "bye_week": "14",
     "adp": 312.0
   },
   {
-    "id": "fp_323",
-    "name": "Jaray Jenkins",
-    "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 314.0
-  },
-  {
-    "id": "fp_324",
-    "name": "Seth Henigan",
-    "position": "QB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 315.0
-  },
-  {
-    "id": "fp_325",
-    "name": "Travis Vokolek",
-    "position": "TE",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 316.0
-  },
-  {
-    "id": "fp_326",
-    "name": "Olamide Zaccheaus",
-    "position": "WR",
-    "team": "ATL",
-    "bye_week": "11",
-    "adp": 317.0
-  },
-  {
-    "id": "fp_327",
-    "name": "Jaylin Lane",
-    "position": "WR",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 318.0
-  },
-  {
-    "id": "fp_328",
+    "id": "fp_319",
     "name": "Anthony Richardson Sr.",
     "position": "QB",
     "team": "IND",
     "bye_week": "13",
-    "adp": 319.0
+    "adp": 313.0
   },
   {
-    "id": "fp_329",
-    "name": "Kevin Coleman Jr.",
+    "id": "fp_320",
+    "name": "Konata Mumpfield",
+    "position": "WR",
+    "team": "LAR",
+    "bye_week": "11",
+    "adp": 314.0
+  },
+  {
+    "id": "fp_321",
+    "name": "Tutu Atwell",
     "position": "WR",
     "team": "MIA",
     "bye_week": "6",
-    "adp": 322.0
+    "adp": 315.0
   },
   {
-    "id": "fp_330",
+    "id": "fp_322",
     "name": "Colbie Young",
     "position": "WR",
     "team": "CIN",
     "bye_week": "6",
-    "adp": 323.0
+    "adp": 316.0
   },
   {
-    "id": "fp_331",
-    "name": "Drew Sample",
-    "position": "TE",
-    "team": "CIN",
-    "bye_week": "6",
-    "adp": 324.0
-  },
-  {
-    "id": "fp_332",
-    "name": "Lance Mason",
-    "position": "TE",
-    "team": "SEA",
-    "bye_week": "11",
-    "adp": 325.0
-  },
-  {
-    "id": "fp_333",
-    "name": "Grant Calcaterra",
-    "position": "TE",
-    "team": "PHI",
-    "bye_week": "10",
-    "adp": 326.0
-  },
-  {
-    "id": "fp_334",
-    "name": "Cade Klubnik",
-    "position": "QB",
-    "team": "NYJ",
-    "bye_week": "13",
-    "adp": 327.0
-  },
-  {
-    "id": "fp_335",
-    "name": "Deion Burks",
-    "position": "WR",
-    "team": "IND",
-    "bye_week": "13",
-    "adp": 328.0
-  },
-  {
-    "id": "fp_336",
-    "name": "Luke McCaffrey",
-    "position": "WR",
-    "team": "WAS",
-    "bye_week": "7",
-    "adp": 329.0
-  },
-  {
-    "id": "fp_337",
-    "name": "Ian Thomas",
-    "position": "TE",
-    "team": "LV",
-    "bye_week": "13",
-    "adp": 330.0
-  },
-  {
-    "id": "fp_338",
-    "name": "Erik Ezukanma",
-    "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 331.0
-  },
-  {
-    "id": "fp_339",
-    "name": "Malik Taylor",
-    "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 332.0
-  },
-  {
-    "id": "fp_340",
-    "name": "Damien Harris",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 333.0
-  },
-  {
-    "id": "fp_341",
-    "name": "Isaiah Davis",
-    "position": "RB",
-    "team": "NYJ",
-    "bye_week": "13",
-    "adp": 334.0
-  },
-  {
-    "id": "fp_342",
-    "name": "Luke Musgrave",
-    "position": "TE",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 335.0
-  },
-  {
-    "id": "fp_343",
-    "name": "CJ Daniels",
-    "position": "WR",
-    "team": "LAR",
-    "bye_week": "11",
-    "adp": 336.0
-  },
-  {
-    "id": "fp_344",
-    "name": "Joshua Palmer",
-    "position": "WR",
-    "team": "BUF",
-    "bye_week": "7",
-    "adp": 337.0
-  },
-  {
-    "id": "fp_345",
+    "id": "fp_323",
     "name": "Dont'e Thornton Jr.",
     "position": "WR",
     "team": "LV",
     "bye_week": "13",
-    "adp": 338.0
+    "adp": 317.0
   },
   {
-    "id": "fp_346",
-    "name": "Drew Allar",
-    "position": "QB",
-    "team": "PIT",
-    "bye_week": "9",
-    "adp": 339.0
-  },
-  {
-    "id": "fp_347",
-    "name": "Greg Dortch",
+    "id": "fp_324",
+    "name": "Jordan Whittington",
     "position": "WR",
-    "team": "DET",
-    "bye_week": "6",
-    "adp": 340.0
-  },
-  {
-    "id": "fp_348",
-    "name": "Jahdae Walker",
-    "position": "WR",
-    "team": "CHI",
-    "bye_week": "10",
-    "adp": 341.0
-  },
-  {
-    "id": "fp_349",
-    "name": "Riley Nowakowski",
-    "position": "TE",
-    "team": "PIT",
-    "bye_week": "9",
-    "adp": 342.0
-  },
-  {
-    "id": "fp_350",
-    "name": "Cedric Tillman",
-    "position": "WR",
-    "team": "CLE",
+    "team": "LAR",
     "bye_week": "11",
-    "adp": 343.0
+    "adp": 318.0
   },
   {
-    "id": "fp_351",
-    "name": "Dareke Young",
+    "id": "fp_325",
+    "name": "Kyle Juszczyk",
+    "position": "RB",
+    "team": "SF",
+    "bye_week": "8",
+    "adp": 319.0
+  },
+  {
+    "id": "fp_326",
+    "name": "Kendre Miller",
+    "position": "RB",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 320.0
+  },
+  {
+    "id": "fp_327",
+    "name": "Derius Davis",
     "position": "WR",
-    "team": "LV",
-    "bye_week": "13",
-    "adp": 344.0
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 321.0
   },
   {
-    "id": "fp_352",
-    "name": "Sione Vaki",
-    "position": "RB",
-    "team": "DET",
-    "bye_week": "6",
-    "adp": 345.0
+    "id": "fp_328",
+    "name": "Travis Vokolek",
+    "position": "TE",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 322.0
   },
   {
-    "id": "fp_353",
-    "name": "Damien Martinez",
-    "position": "RB",
+    "id": "fp_329",
+    "name": "Seth Henigan",
+    "position": "QB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 323.0
+  },
+  {
+    "id": "fp_330",
+    "name": "Jaray Jenkins",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 324.0
+  },
+  {
+    "id": "fp_331",
+    "name": "Jaylin Lane",
+    "position": "WR",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 325.0
+  },
+  {
+    "id": "fp_332",
+    "name": "Luke Musgrave",
+    "position": "TE",
     "team": "GB",
     "bye_week": "11",
-    "adp": 346.0
+    "adp": 326.0
   },
   {
-    "id": "fp_354",
-    "name": "Michael Burton",
-    "position": "RB",
-    "team": "CLE",
-    "bye_week": "11",
-    "adp": 348.0
-  },
-  {
-    "id": "fp_355",
-    "name": "Nick Chubb",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 349.0
-  },
-  {
-    "id": "fp_356",
-    "name": "Dennis Houston",
-    "position": "WR",
-    "team": "TB",
-    "bye_week": "10",
-    "adp": 350.0
-  },
-  {
-    "id": "fp_357",
-    "name": "Jalen White",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 351.0
-  },
-  {
-    "id": "fp_358",
-    "name": "Will Kacmarek",
-    "position": "TE",
-    "team": "MIA",
-    "bye_week": "6",
-    "adp": 352.0
-  },
-  {
-    "id": "fp_359",
-    "name": "Joe Royer",
-    "position": "TE",
-    "team": "CLE",
-    "bye_week": "11",
-    "adp": 353.0
-  },
-  {
-    "id": "fp_360",
-    "name": "Xavier Hutchinson",
-    "position": "WR",
-    "team": "HOU",
-    "bye_week": "8",
-    "adp": 355.0
-  },
-  {
-    "id": "fp_361",
-    "name": "John Metchie III",
-    "position": "WR",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 356.0
-  },
-  {
-    "id": "fp_362",
-    "name": "Seth McGowan",
-    "position": "RB",
-    "team": "IND",
-    "bye_week": "13",
-    "adp": 357.0
-  },
-  {
-    "id": "fp_363",
+    "id": "fp_333",
     "name": "KeAndre Lambert-Smith",
     "position": "WR",
     "team": "LAC",
     "bye_week": "7",
-    "adp": 358.0
+    "adp": 328.0
   },
   {
-    "id": "fp_364",
-    "name": "Emari Demercado",
+    "id": "fp_334",
+    "name": "Joe Flacco",
+    "position": "QB",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 329.0
+  },
+  {
+    "id": "fp_335",
+    "name": "Lance Mason",
+    "position": "TE",
+    "team": "SEA",
+    "bye_week": "11",
+    "adp": 330.0
+  },
+  {
+    "id": "fp_336",
+    "name": "Drew Sample",
+    "position": "TE",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 331.0
+  },
+  {
+    "id": "fp_337",
+    "name": "Drew Allar",
+    "position": "QB",
+    "team": "PIT",
+    "bye_week": "9",
+    "adp": 332.0
+  },
+  {
+    "id": "fp_338",
+    "name": "Cade Klubnik",
+    "position": "QB",
+    "team": "NYJ",
+    "bye_week": "13",
+    "adp": 333.0
+  },
+  {
+    "id": "fp_339",
+    "name": "Greg Dortch",
+    "position": "WR",
+    "team": "DET",
+    "bye_week": "6",
+    "adp": 334.0
+  },
+  {
+    "id": "fp_340",
+    "name": "Brashard Smith",
     "position": "RB",
     "team": "KC",
     "bye_week": "5",
-    "adp": 359.0
+    "adp": 335.0
   },
   {
-    "id": "fp_365",
-    "name": "Trevor Etienne",
-    "position": "RB",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 360.0
-  },
-  {
-    "id": "fp_366",
-    "name": "Gardner Minshew II",
+    "id": "fp_341",
+    "name": "Jameis Winston",
     "position": "QB",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 361.0
+    "team": "NYG",
+    "bye_week": "8",
+    "adp": 336.0
   },
   {
-    "id": "fp_367",
+    "id": "fp_342",
+    "name": "Ian Thomas",
+    "position": "TE",
+    "team": "LV",
+    "bye_week": "13",
+    "adp": 337.0
+  },
+  {
+    "id": "fp_343",
+    "name": "Malik Taylor",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 338.0
+  },
+  {
+    "id": "fp_344",
+    "name": "Damien Harris",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 339.0
+  },
+  {
+    "id": "fp_345",
+    "name": "Trayveon Williams",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 340.0
+  },
+  {
+    "id": "fp_346",
+    "name": "Michael Strachan",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 341.0
+  },
+  {
+    "id": "fp_347",
+    "name": "Olamide Zaccheaus",
+    "position": "WR",
+    "team": "ATL",
+    "bye_week": "11",
+    "adp": 342.0
+  },
+  {
+    "id": "fp_348",
+    "name": "Isaiah Davis",
+    "position": "RB",
+    "team": "NYJ",
+    "bye_week": "13",
+    "adp": 343.0
+  },
+  {
+    "id": "fp_349",
+    "name": "CJ Daniels",
+    "position": "WR",
+    "team": "LAR",
+    "bye_week": "11",
+    "adp": 344.0
+  },
+  {
+    "id": "fp_350",
     "name": "Michael Trigg",
     "position": "TE",
     "team": "DAL",
     "bye_week": "14",
-    "adp": 362.0
+    "adp": 345.0
   },
   {
-    "id": "fp_368",
-    "name": "Matt Hibner",
-    "position": "TE",
-    "team": "BAL",
-    "bye_week": "13",
-    "adp": 363.0
-  },
-  {
-    "id": "fp_369",
-    "name": "Josh Oliver",
-    "position": "TE",
-    "team": "MIN",
+    "id": "fp_351",
+    "name": "Kevin Coleman Jr.",
+    "position": "WR",
+    "team": "MIA",
     "bye_week": "6",
-    "adp": 364.0
+    "adp": 346.0
   },
   {
-    "id": "fp_370",
-    "name": "Marlin Klein",
+    "id": "fp_352",
+    "name": "Grant Calcaterra",
     "position": "TE",
-    "team": "HOU",
-    "bye_week": "8",
-    "adp": 365.0
+    "team": "PHI",
+    "bye_week": "10",
+    "adp": 347.0
   },
   {
-    "id": "fp_371",
+    "id": "fp_353",
+    "name": "Deion Burks",
+    "position": "WR",
+    "team": "IND",
+    "bye_week": "13",
+    "adp": 348.0
+  },
+  {
+    "id": "fp_354",
     "name": "Roman Wilson",
     "position": "WR",
     "team": "PIT",
     "bye_week": "9",
+    "adp": 349.0
+  },
+  {
+    "id": "fp_355",
+    "name": "Ty Chandler",
+    "position": "RB",
+    "team": "NO",
+    "bye_week": "8",
+    "adp": 350.0
+  },
+  {
+    "id": "fp_356",
+    "name": "Riley Nowakowski",
+    "position": "TE",
+    "team": "PIT",
+    "bye_week": "9",
+    "adp": 351.0
+  },
+  {
+    "id": "fp_357",
+    "name": "Damien Martinez",
+    "position": "RB",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 352.0
+  },
+  {
+    "id": "fp_358",
+    "name": "Reggie Virgil",
+    "position": "WR",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 353.0
+  },
+  {
+    "id": "fp_359",
+    "name": "Dareke Young",
+    "position": "WR",
+    "team": "LV",
+    "bye_week": "13",
+    "adp": 354.0
+  },
+  {
+    "id": "fp_360",
+    "name": "Michael Burton",
+    "position": "RB",
+    "team": "CLE",
+    "bye_week": "11",
+    "adp": 356.0
+  },
+  {
+    "id": "fp_361",
+    "name": "Jalen White",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 357.0
+  },
+  {
+    "id": "fp_362",
+    "name": "Taysom Hill",
+    "position": "TE",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 358.0
+  },
+  {
+    "id": "fp_363",
+    "name": "Dennis Houston",
+    "position": "WR",
+    "team": "TB",
+    "bye_week": "10",
+    "adp": 360.0
+  },
+  {
+    "id": "fp_364",
+    "name": "Will Kacmarek",
+    "position": "TE",
+    "team": "MIA",
+    "bye_week": "6",
+    "adp": 361.0
+  },
+  {
+    "id": "fp_365",
+    "name": "Joe Royer",
+    "position": "TE",
+    "team": "CLE",
+    "bye_week": "11",
+    "adp": 362.0
+  },
+  {
+    "id": "fp_366",
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "WAS",
+    "bye_week": "7",
+    "adp": 363.0
+  },
+  {
+    "id": "fp_367",
+    "name": "Xavier Hutchinson",
+    "position": "WR",
+    "team": "HOU",
+    "bye_week": "8",
+    "adp": 364.0
+  },
+  {
+    "id": "fp_368",
+    "name": "Charlie Kolar",
+    "position": "TE",
+    "team": "LAC",
+    "bye_week": "7",
+    "adp": 365.0
+  },
+  {
+    "id": "fp_369",
+    "name": "Seth McGowan",
+    "position": "RB",
+    "team": "IND",
+    "bye_week": "13",
     "adp": 366.0
   },
   {
-    "id": "fp_372",
-    "name": "Audric Estime",
-    "position": "RB",
+    "id": "fp_370",
+    "name": "Noah Fant",
+    "position": "TE",
     "team": "NO",
     "bye_week": "8",
     "adp": 367.0
   },
   {
-    "id": "fp_373",
-    "name": "Isaac Guerendo",
+    "id": "fp_371",
+    "name": "Emari Demercado",
     "position": "RB",
-    "team": "SF",
-    "bye_week": "8",
+    "team": "KC",
+    "bye_week": "5",
     "adp": 368.0
   },
   {
-    "id": "fp_374",
-    "name": "Tanner McKee",
-    "position": "QB",
-    "team": "PHI",
-    "bye_week": "10",
+    "id": "fp_372",
+    "name": "Trevor Etienne",
+    "position": "RB",
+    "team": "CAR",
+    "bye_week": "5",
     "adp": 369.0
   },
   {
-    "id": "fp_375",
-    "name": "Jarquez Hunter",
-    "position": "RB",
-    "team": "LAR",
-    "bye_week": "11",
+    "id": "fp_373",
+    "name": "Gardner Minshew II",
+    "position": "QB",
+    "team": "ARI",
+    "bye_week": "14",
     "adp": 370.0
   },
   {
-    "id": "fp_376",
-    "name": "Luke Farrell",
+    "id": "fp_374",
+    "name": "Matt Hibner",
     "position": "TE",
-    "team": "SF",
-    "bye_week": "8",
+    "team": "BAL",
+    "bye_week": "13",
     "adp": 371.0
   },
   {
-    "id": "fp_377",
-    "name": "Foster Moreau",
-    "position": "TE",
-    "team": "HOU",
+    "id": "fp_375",
+    "name": "Audric Estime",
+    "position": "RB",
+    "team": "NO",
     "bye_week": "8",
     "adp": 372.0
   },
   {
-    "id": "fp_378",
-    "name": "Phil Mafah",
+    "id": "fp_376",
+    "name": "Isaac Guerendo",
     "position": "RB",
-    "team": "DAL",
-    "bye_week": "14",
+    "team": "SF",
+    "bye_week": "8",
     "adp": 373.0
   },
   {
-    "id": "fp_379",
-    "name": "Ameer Abdullah",
-    "position": "RB",
-    "team": "JAC",
-    "bye_week": "7",
-    "adp": 374.0
-  },
-  {
-    "id": "fp_380",
-    "name": "Kendrick Law",
-    "position": "WR",
-    "team": "DET",
-    "bye_week": "6",
-    "adp": 375.0
-  },
-  {
-    "id": "fp_381",
-    "name": "Jacob Cowing",
-    "position": "WR",
-    "team": "SF",
-    "bye_week": "8",
-    "adp": 376.0
-  },
-  {
-    "id": "fp_382",
-    "name": "Nikko Remigio",
-    "position": "WR",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 377.0
-  },
-  {
-    "id": "fp_383",
-    "name": "Roschon Johnson",
-    "position": "RB",
-    "team": "CHI",
-    "bye_week": "10",
-    "adp": 378.0
-  },
-  {
-    "id": "fp_384",
-    "name": "Jamison Crowder",
-    "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 380.0
-  },
-  {
-    "id": "fp_385",
-    "name": "Erick All Jr.",
-    "position": "TE",
-    "team": "CIN",
-    "bye_week": "6",
-    "adp": 381.0
-  },
-  {
-    "id": "fp_386",
-    "name": "Jonathan Ward",
-    "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
-    "adp": 385.0
-  },
-  {
-    "id": "fp_387",
-    "name": "J. Michael Sturdivant",
-    "position": "WR",
-    "team": "GB",
-    "bye_week": "11",
-    "adp": 386.0
-  },
-  {
-    "id": "fp_388",
-    "name": "Elijah Higgins",
-    "position": "TE",
-    "team": "ARI",
-    "bye_week": "14",
-    "adp": 387.0
-  },
-  {
-    "id": "fp_389",
-    "name": "Charlie Kolar",
-    "position": "TE",
-    "team": "LAC",
-    "bye_week": "7",
-    "adp": 388.0
-  },
-  {
-    "id": "fp_390",
-    "name": "Noah Fant",
-    "position": "TE",
-    "team": "NO",
-    "bye_week": "8",
-    "adp": 389.0
-  },
-  {
-    "id": "fp_391",
-    "name": "Will Shipley",
-    "position": "RB",
-    "team": "PHI",
-    "bye_week": "10",
-    "adp": 390.0
-  },
-  {
-    "id": "fp_392",
-    "name": "Austin Hooper",
-    "position": "TE",
-    "team": "ATL",
-    "bye_week": "11",
-    "adp": 391.0
-  },
-  {
-    "id": "fp_393",
-    "name": "Tanner Koziol",
-    "position": "TE",
-    "team": "JAC",
-    "bye_week": "7",
-    "adp": 393.0
-  },
-  {
-    "id": "fp_394",
-    "name": "Tommy Tremble",
-    "position": "TE",
-    "team": "CAR",
-    "bye_week": "5",
-    "adp": 394.0
-  },
-  {
-    "id": "fp_395",
-    "name": "Will Howard",
-    "position": "QB",
-    "team": "PIT",
-    "bye_week": "9",
-    "adp": 395.0
-  },
-  {
-    "id": "fp_396",
-    "name": "John Michael Gyllenborg",
-    "position": "TE",
-    "team": "KC",
-    "bye_week": "5",
-    "adp": 396.0
-  },
-  {
-    "id": "fp_397",
-    "name": "Nate Boerkircher",
-    "position": "TE",
-    "team": "JAC",
-    "bye_week": "7",
-    "adp": 397.0
-  },
-  {
-    "id": "fp_398",
-    "name": "Xavier Smith",
-    "position": "WR",
-    "team": "LAR",
-    "bye_week": "11",
-    "adp": 398.0
-  },
-  {
-    "id": "fp_399",
-    "name": "Jalen Milroe",
-    "position": "QB",
-    "team": "SEA",
-    "bye_week": "11",
-    "adp": 399.0
-  },
-  {
-    "id": "fp_400",
+    "id": "fp_377",
     "name": "Ty Simpson",
     "position": "QB",
     "team": "LAR",
     "bye_week": "11",
-    "adp": 400.0
+    "adp": 374.0
+  },
+  {
+    "id": "fp_378",
+    "name": "Davis Mills",
+    "position": "QB",
+    "team": "HOU",
+    "bye_week": "8",
+    "adp": 375.0
+  },
+  {
+    "id": "fp_379",
+    "name": "Jarquez Hunter",
+    "position": "RB",
+    "team": "LAR",
+    "bye_week": "11",
+    "adp": 377.0
+  },
+  {
+    "id": "fp_380",
+    "name": "Phil Mafah",
+    "position": "RB",
+    "team": "DAL",
+    "bye_week": "14",
+    "adp": 378.0
+  },
+  {
+    "id": "fp_381",
+    "name": "Ameer Abdullah",
+    "position": "RB",
+    "team": "JAC",
+    "bye_week": "7",
+    "adp": 379.0
+  },
+  {
+    "id": "fp_382",
+    "name": "Kendrick Law",
+    "position": "WR",
+    "team": "DET",
+    "bye_week": "6",
+    "adp": 380.0
+  },
+  {
+    "id": "fp_383",
+    "name": "Sione Vaki",
+    "position": "RB",
+    "team": "DET",
+    "bye_week": "6",
+    "adp": 381.0
+  },
+  {
+    "id": "fp_384",
+    "name": "Skyy Moore",
+    "position": "WR",
+    "team": "GB",
+    "bye_week": "11",
+    "adp": 382.0
+  },
+  {
+    "id": "fp_385",
+    "name": "David Moore",
+    "position": "WR",
+    "team": "CAR",
+    "bye_week": "5",
+    "adp": 383.0
+  },
+  {
+    "id": "fp_386",
+    "name": "Devin Duvernay",
+    "position": "WR",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 384.0
+  },
+  {
+    "id": "fp_387",
+    "name": "Nikko Remigio",
+    "position": "WR",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 385.0
+  },
+  {
+    "id": "fp_388",
+    "name": "Roschon Johnson",
+    "position": "RB",
+    "team": "CHI",
+    "bye_week": "10",
+    "adp": 386.0
+  },
+  {
+    "id": "fp_389",
+    "name": "Nick Chubb",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 387.0
+  },
+  {
+    "id": "fp_390",
+    "name": "Mitch Tinsley",
+    "position": "WR",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 388.0
+  },
+  {
+    "id": "fp_391",
+    "name": "Andrew Beck",
+    "position": "TE",
+    "team": "NYJ",
+    "bye_week": "13",
+    "adp": 389.0
+  },
+  {
+    "id": "fp_392",
+    "name": "Jonathan Ward",
+    "position": "RB",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 390.0
+  },
+  {
+    "id": "fp_393",
+    "name": "Jeff Caldwell",
+    "position": "WR",
+    "team": "KC",
+    "bye_week": "5",
+    "adp": 391.0
+  },
+  {
+    "id": "fp_394",
+    "name": "Caleb Lohner",
+    "position": "TE",
+    "team": "DEN",
+    "bye_week": "10",
+    "adp": 392.0
+  },
+  {
+    "id": "fp_395",
+    "name": "Jamison Crowder",
+    "position": "WR",
+    "team": "FA",
+    "bye_week": "-",
+    "adp": 393.0
+  },
+  {
+    "id": "fp_396",
+    "name": "Erick All Jr.",
+    "position": "TE",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 395.0
+  },
+  {
+    "id": "fp_397",
+    "name": "Taylen Green",
+    "position": "QB",
+    "team": "CLE",
+    "bye_week": "11",
+    "adp": 396.0
+  },
+  {
+    "id": "fp_398",
+    "name": "Jack Endries",
+    "position": "TE",
+    "team": "CIN",
+    "bye_week": "6",
+    "adp": 397.0
+  },
+  {
+    "id": "fp_399",
+    "name": "Elijah Higgins",
+    "position": "TE",
+    "team": "ARI",
+    "bye_week": "14",
+    "adp": 398.0
+  },
+  {
+    "id": "fp_400",
+    "name": "John Metchie III",
+    "position": "WR",
+    "team": "CAR",
+    "bye_week": "5",
+    "adp": 399.0
   }
 ];

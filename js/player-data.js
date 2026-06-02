@@ -219,8 +219,8 @@ const PLAYERS_DATA = [
     "id": "fp_28",
     "name": "A.J. Brown",
     "position": "WR",
-    "team": "PHI",
-    "bye_week": "10",
+    "team": "NE",
+    "bye_week": "11",
     "adp": 28.3
   },
   {
@@ -2587,8 +2587,8 @@ const PLAYERS_DATA = [
     "id": "fp_324",
     "name": "Seth Henigan",
     "position": "QB",
-    "team": "IND",
-    "bye_week": "13",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 315.0
   },
   {

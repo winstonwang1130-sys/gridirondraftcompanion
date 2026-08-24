@@ -12,6 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -25,6 +26,8 @@ jobs:
         run: pip install requests urllib3 beautifulsoup4
 
       - name: Run updater script
+        env:
+          FANTASYPROS_COOKIES: ${{ secrets.FANTASYPROS_COOKIES }}
         run: python update_data.py
 
       - name: Commit and push if data changed

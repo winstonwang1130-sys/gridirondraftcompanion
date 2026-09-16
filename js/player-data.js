@@ -913,7 +913,7 @@ const PLAYERS_DATA = [
   },
   {
     "id": "fp_27331",
-    "name": "KC Concepcion",
+    "name": "KC Concepcion Jr.",
     "position": "WR",
     "team": "CLE",
     "bye_week": "11",

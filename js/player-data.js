@@ -1747,8 +1747,8 @@ const PLAYERS_DATA = [
     "id": "fp_16483",
     "name": "Austin Ekeler",
     "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "WAS",
+    "bye_week": "7",
     "adp": 204.0
   },
   {

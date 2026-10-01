@@ -2475,8 +2475,8 @@ const PLAYERS_DATA = [
     "id": "fp_26608",
     "name": "Lawrence Keys III",
     "position": "WR",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "DET",
+    "bye_week": "6",
     "adp": 339.0
   },
   {

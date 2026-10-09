@@ -1635,8 +1635,8 @@ const PLAYERS_DATA = [
     "id": "fp_24362",
     "name": "Kaytron Allen",
     "position": "RB",
-    "team": "WAS",
-    "bye_week": "7",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 235.0
   },
   {
@@ -2131,8 +2131,8 @@ const PLAYERS_DATA = [
     "id": "fp_25654",
     "name": "Emari Demercado",
     "position": "RB",
-    "team": "DAL",
-    "bye_week": "14",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 283.0
   },
   {

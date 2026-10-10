@@ -1635,8 +1635,8 @@ const PLAYERS_DATA = [
     "id": "fp_24362",
     "name": "Kaytron Allen",
     "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "MIA",
+    "bye_week": "6",
     "adp": 235.0
   },
   {

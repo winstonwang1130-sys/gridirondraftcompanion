@@ -611,8 +611,8 @@ const PLAYERS_DATA = [
     "id": "fp_23064",
     "name": "Marvin Harrison Jr.",
     "position": "WR",
-    "team": "ARI",
-    "bye_week": "14",
+    "team": "HOU",
+    "bye_week": "8",
     "adp": 76.7
   },
   {

@@ -1779,8 +1779,8 @@ const PLAYERS_DATA = [
     "id": "fp_19302",
     "name": "Najee Harris",
     "position": "RB",
-    "team": "NYG",
-    "bye_week": "8",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 215.0
   },
   {
@@ -1835,8 +1835,8 @@ const PLAYERS_DATA = [
     "id": "fp_24344",
     "name": "Jaydon Blue",
     "position": "RB",
-    "team": "PHI",
-    "bye_week": "10",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 236.0
   },
   {

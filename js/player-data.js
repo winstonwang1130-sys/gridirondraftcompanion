@@ -1835,8 +1835,8 @@ const PLAYERS_DATA = [
     "id": "fp_24344",
     "name": "Jaydon Blue",
     "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "PHI",
+    "bye_week": "10",
     "adp": 236.0
   },
   {

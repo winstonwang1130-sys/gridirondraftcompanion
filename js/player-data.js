@@ -2131,8 +2131,8 @@ const PLAYERS_DATA = [
     "id": "fp_25654",
     "name": "Emari Demercado",
     "position": "RB",
-    "team": "DAL",
-    "bye_week": "14",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 283.0
   },
   {
@@ -2475,8 +2475,8 @@ const PLAYERS_DATA = [
     "id": "fp_26608",
     "name": "Lawrence Keys III",
     "position": "WR",
-    "team": "DET",
-    "bye_week": "6",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 339.0
   },
   {

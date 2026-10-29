@@ -2131,8 +2131,8 @@ const PLAYERS_DATA = [
     "id": "fp_25654",
     "name": "Emari Demercado",
     "position": "RB",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "HOU",
+    "bye_week": "8",
     "adp": 283.0
   },
   {

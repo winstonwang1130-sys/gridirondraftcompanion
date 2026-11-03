@@ -2515,8 +2515,8 @@ const PLAYERS_DATA = [
     "id": "fp_27289",
     "name": "Cam Miller",
     "position": "QB",
-    "team": "FA",
-    "bye_week": "-",
+    "team": "GB",
+    "bye_week": "11",
     "adp": 348.0
   },
   {

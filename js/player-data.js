@@ -1587,8 +1587,8 @@ const PLAYERS_DATA = [
     "id": "fp_15642",
     "name": "Jacoby Brissett",
     "position": "QB",
-    "team": "ARI",
-    "bye_week": "14",
+    "team": "BAL",
+    "bye_week": "13",
     "adp": 222.0
   },
   {

@@ -867,8 +867,8 @@ const PLAYERS_DATA = [
     "id": "fp_24706",
     "name": "Josh Downs",
     "position": "WR",
-    "team": "IND",
-    "bye_week": "13",
+    "team": "KC",
+    "bye_week": "5",
     "adp": 110.0
   },
   {
@@ -1283,8 +1283,8 @@ const PLAYERS_DATA = [
     "id": "fp_11616",
     "name": "Keenan Allen",
     "position": "WR",
-    "team": "IND",
-    "bye_week": "13",
+    "team": "SF",
+    "bye_week": "8",
     "adp": 175.0
   },
   {
@@ -1771,8 +1771,8 @@ const PLAYERS_DATA = [
     "id": "fp_11177",
     "name": "Kirk Cousins",
     "position": "QB",
-    "team": "LV",
-    "bye_week": "13",
+    "team": "MIN",
+    "bye_week": "6",
     "adp": 213.0
   },
   {
@@ -1835,8 +1835,8 @@ const PLAYERS_DATA = [
     "id": "fp_24344",
     "name": "Jaydon Blue",
     "position": "RB",
-    "team": "PHI",
-    "bye_week": "10",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 236.0
   },
   {

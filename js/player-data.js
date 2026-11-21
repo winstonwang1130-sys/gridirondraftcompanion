@@ -1363,8 +1363,8 @@ const PLAYERS_DATA = [
     "id": "fp_18232",
     "name": "Daniel Jones",
     "position": "QB",
-    "team": "IND",
-    "bye_week": "13",
+    "team": "FA",
+    "bye_week": "-",
     "adp": 183.7
   },
   {
